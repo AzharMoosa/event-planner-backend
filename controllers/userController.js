@@ -1,5 +1,6 @@
 import asyncHandler from "express-async-handler";
 import User from "../models/User.js";
+import generateToken from "../utils/generateToken.js";
 
 // @desc        Login User
 // @route       POST /api/users/login
@@ -15,6 +16,7 @@ const loginUser = asyncHandler(async (req, res) => {
       firstName: user.firstName,
       lastName: user.lastName,
       email: user.email,
+      token: generateToken(user._id),
     });
   } else {
     res.status(401);
@@ -48,6 +50,7 @@ const registerUser = asyncHandler(async (req, res) => {
       firstName: user.firstName,
       lastName: user.lastName,
       email: user.email,
+      token: generateToken(user._id),
     });
   } else {
     res.status(401);
