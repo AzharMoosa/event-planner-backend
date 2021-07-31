@@ -1,14 +1,13 @@
 import express from "express";
 import colors from "colors";
 import connectDB from "./config/db.js";
+import userRoute from "./routes/users.js";
 const app = express();
 
 // Connect To MongoDB
 connectDB();
 
-app.get("/", (req, res) => {
-  res.send("API");
-});
+app.use("/api/users", userRoute);
 
 // Start Server
 const PORT = process.env.PORT || 5000;
