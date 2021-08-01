@@ -26,6 +26,11 @@ const PlacesSchema = mongoose.Schema({
   info: {
     type: String,
   },
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "User",
+    required: true,
+  },
 });
 
 const Place = mongoose.model("Place", PlacesSchema);
