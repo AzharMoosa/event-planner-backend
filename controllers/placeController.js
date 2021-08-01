@@ -72,7 +72,7 @@ const updatePlace = asyncHandler(async (req, res) => {
 });
 
 // @desc        Add Keyword Place
-// @route       PUT /api/places/:id
+// @route       PUT /api/places/:id/keyword
 // @access      Private/Admin
 const addKeyword = asyncHandler(async (req, res) => {
   const { keyword } = req.body;
