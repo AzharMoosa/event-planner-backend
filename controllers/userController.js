@@ -64,9 +64,24 @@ const registerUser = asyncHandler(async (req, res) => {
 const getUsers = asyncHandler(async (req, res) => {});
 
 // @desc        Get User By ID
-// @route       PUT /api/users/:id
+// @route       GET /api/users/info
 // @access      Private
-const getUserByID = asyncHandler(async (req, res) => {});
+const getUseInfo = asyncHandler(async (req, res) => {
+  const user = await User.findById(req.user._id);
+
+  if (user) {
+    res.json({
+      _id: user._id,
+      firstName: user.firstName,
+      lastName: user.lastName,
+      email: user.email,
+      token: generateToken(user._id),
+    });
+  } else {
+    res.status(400);
+    throw new Error("User Does Not Exists");
+  }
+});
 
 // @desc        Update User
 // @route       PUT /api/users/:id
@@ -84,5 +99,5 @@ export {
   getUsers,
   updateUser,
   deleteUser,
-  getUserByID,
+  getUseInfo,
 };
