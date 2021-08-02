@@ -1,5 +1,7 @@
 import asyncHandler from "express-async-handler";
 import Event from "../models/Event.js";
+import InvitedEvent from "../models/InvitedEvent.js";
+import User from "../models/User.js";
 
 // @desc        Get Events
 // @route       GET /api/events
@@ -91,9 +93,102 @@ const deleteEvent = asyncHandler(async (req, res) => {
 // @route       POST /api/events/:id/invite
 // @access      Private
 const inviteUser = asyncHandler(async (req, res) => {
+  const { userTwo } = req.body;
+
+  const userOne = req.user._id;
+
   const event = await Event.findById(req.params.id);
   if (event) {
+    // Send Invite From User One To User Two
+    const inviteSend = await InvitedEvent.findOneAndUpdate(
+      { requester: userOne, recipient: userTwo },
+      { $set: { status: 1, event } },
+      { upsert: true, new: true }
+    );
+
+    // User Two Recieves Invite From User One
+    const inviteRecieve = await InvitedEvent.findOneAndUpdate(
+      { recipient: userOne, requester: userTwo },
+      { $set: { status: 2, event } },
+      { upsert: true, new: true }
+    );
+
+    // Updates Invited Events Array For User One
+    const updateUserOne = await User.findOneAndUpdate(
+      { _id: userOne },
+      { $push: { invitedEvents: inviteSend.event } }
+    );
+
+    // Updates Invited Events Array For User Two
+    const updateUserTwo = await User.findOneAndUpdate(
+      { _id: userTwo },
+      { $push: { invitedEvents: inviteRecieve.event } }
+    );
+
     res.json(event);
+  } else {
+    res.status(404);
+    throw new Error("Event Not Found");
+  }
+});
+
+// @desc        Accepts Invite To Event
+// @route       POST /api/events/:id/invite/accept
+// @access      Private
+const acceptInvite = asyncHandler(async (req, res) => {
+  const { userOne } = req.body;
+  const userTwo = req.user._id;
+
+  const event = await Event.findById(req.params.id);
+
+  if (event) {
+    await InvitedEvent.findOneAndUpdate(
+      { requester: userOne, recipient: userTwo },
+      { $set: { status: 3 } }
+    );
+
+    await InvitedEvent.findOneAndUpdate(
+      { recipient: userOne, requester: userTwo },
+      { $set: { status: 3 } }
+    );
+
+    res.json(event);
+  } else {
+    res.status(404);
+    throw new Error("Event Not Found");
+  }
+});
+
+// @desc        Declines Invite To Event
+// @route       POST /api/events/:id/invite/decline
+// @access      Private
+const declineInvite = asyncHandler(async (req, res) => {
+  const { userOne } = req.body;
+  const userTwo = req.user._id;
+
+  const event = await Event.findById(req.params.id);
+
+  if (event) {
+    const inviteSend = await InvitedEvent.findOneAndRemove({
+      requester: userOne,
+      recipient: userTwo,
+    });
+
+    const inviteRecieve = await InvitedEvent.findOneAndRemove({
+      recipient: userOne,
+      requester: userTwo,
+    });
+
+    const updateUserOne = await User.findOneAndUpdate(
+      { _id: userOne },
+      { $pull: { invitedEvents: inviteSend.event } }
+    );
+    const updateUserTwo = await User.findOneAndUpdate(
+      { _id: userTwo },
+      { $pull: { invitedEvents: inviteRecieve.event } }
+    );
+
+    res.json({ message: "Event Declined" });
   } else {
     res.status(404);
     throw new Error("Event Not Found");
@@ -107,4 +202,6 @@ export {
   updateEvent,
   deleteEvent,
   inviteUser,
+  acceptInvite,
+  declineInvite,
 };
