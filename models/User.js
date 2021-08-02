@@ -25,6 +25,12 @@ const UserSchema = mongoose.Schema(
       required: true,
       default: false,
     },
+    invitedEvents: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "InvitedEvent",
+      },
+    ],
   },
   {
     timestamps: true,
