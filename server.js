@@ -3,6 +3,7 @@ import colors from "colors";
 import connectDB from "./config/db.js";
 import userRoute from "./routes/users.js";
 import placeRoute from "./routes/places.js";
+import eventRoute from "./routes/events.js";
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 
 const app = express();
@@ -15,6 +16,7 @@ connectDB();
 // Routes
 app.use("/api/users", userRoute);
 app.use("/api/places", placeRoute);
+app.use("/api/events", eventRoute);
 
 // Error Middleware
 app.use(notFound);
