@@ -66,7 +66,7 @@ const getUsers = asyncHandler(async (req, res) => {});
 // @desc        Get User By ID
 // @route       GET /api/users/info
 // @access      Private
-const getUseInfo = asyncHandler(async (req, res) => {
+const getUserInfo = asyncHandler(async (req, res) => {
   const user = await User.findById(req.user._id);
 
   if (user) {
@@ -76,6 +76,22 @@ const getUseInfo = asyncHandler(async (req, res) => {
       lastName: user.lastName,
       email: user.email,
       token: generateToken(user._id),
+    });
+  } else {
+    res.status(400);
+    throw new Error("User Does Not Exists");
+  }
+});
+
+// @desc        Get User Events
+// @route       GET /api/users/events
+// @access      Private
+const getUserEvents = asyncHandler(async (req, res) => {
+  const user = await User.findById(req.user._id);
+
+  if (user) {
+    res.json({
+      invitedEvents: user.invitedEvents,
     });
   } else {
     res.status(400);
@@ -99,5 +115,6 @@ export {
   getUsers,
   updateUser,
   deleteUser,
-  getUseInfo,
+  getUserInfo,
+  getUserEvents,
 };

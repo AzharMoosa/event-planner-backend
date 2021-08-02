@@ -19,12 +19,6 @@ const EventSchema = mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "Place",
     },
-    invitedUsers: [
-      {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "User",
-      },
-    ],
     location: {
       address: { type: String },
       postalCode: { type: String },
