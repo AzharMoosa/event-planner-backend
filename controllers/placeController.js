@@ -7,6 +7,10 @@ import Place from "../models/Place.js";
 const getPlaces = asyncHandler(async (req, res) => {
   const places = await Place.find({});
 
+  places.sort((a, b) => parseFloat(b.rating) - parseFloat(a.rating));
+
+  console.log(places);
+
   if (places) {
     res.json(places);
   } else {

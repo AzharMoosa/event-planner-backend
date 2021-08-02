@@ -2,7 +2,7 @@ const places = [
   {
     name: "Grato",
     description:
-      "Located at 9 Kensington Square, London — and just a short stroll from Hyde Park — grato is a chic Italian restaurant split over two levels. With a focus on regional cuisine and the freshest ingredients, every dish is imbued with culture. Our handmade pasta is crafted with love in our very own kitchen; our wines are sourced from artisan vineyards. Our evolving menus reflect the seasons and celebrate Italy’s culinary wonders. Sample ravioli, tagliolini, and organic sourdough bruschetta. Indulge in prosciutto di parma, veal scaloppine, and blood orange polenta cake. What’s more, our heavenly tiramisu has proved a hit with Italian natives. They claim our coffee-flavoured dessert is better than what they’ve had in the motherland. We’ve got to admit — it is irresistible!",
+      "Located at 9 Kensington Square, London and just a short stroll from Hyde Park grato is a chic Italian restaurant split over two levels. With a focus on regional cuisine and the freshest ingredients, every dish is imbued with culture. Our handmade pasta is crafted with love in our very own kitchen; our wines are sourced from artisan vineyards. Our evolving menus reflect the seasons and celebrate Italy’s culinary wonders. Sample ravioli, tagliolini, and organic sourdough bruschetta. Indulge in prosciutto di parma, veal scaloppine, and blood orange polenta cake. What’s more, our heavenly tiramisu has proved a hit with Italian natives. They claim our coffee-flavoured dessert is better than what they’ve had in the motherland. We’ve got to admit — it is irresistible!",
     image: "images/grato.png",
     location: {
       address: "9 Kensington Square",
