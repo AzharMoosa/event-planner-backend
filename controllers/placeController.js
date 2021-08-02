@@ -9,8 +9,6 @@ const getPlaces = asyncHandler(async (req, res) => {
 
   places.sort((a, b) => parseFloat(b.rating) - parseFloat(a.rating));
 
-  console.log(places);
-
   if (places) {
     res.json(places);
   } else {
