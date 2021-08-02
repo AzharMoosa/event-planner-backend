@@ -1,5 +1,5 @@
 import asyncHandler from "express-async-handler";
-import Event from "../models/Place.js";
+import Event from "../models/Event.js";
 
 // @desc        Get Events
 // @route       GET /api/events
@@ -31,10 +31,19 @@ const getEvent = asyncHandler(async (req, res) => {
 // @route       POST /api/events
 // @access      Private
 const createEvent = asyncHandler(async (req, res) => {
-  const {} = req.body;
-  const event = await Event.create({});
-  if (event) {
-    res.json(event);
+  const { name, isCustom, place, location, description, limit } = req.body;
+
+  const createdEvent = await Event.create({
+    name,
+    description,
+    isCustom,
+    location,
+    place,
+    limit,
+    hostUser: req.user._id,
+  });
+  if (createdEvent) {
+    res.json(createdEvent);
   } else {
     res.status(401);
     throw new Error("API Error");

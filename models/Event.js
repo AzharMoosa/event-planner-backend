@@ -11,14 +11,13 @@ const EventSchema = mongoose.Schema(
       required: true,
       default: false,
     },
-    place: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Place",
-    },
     hostUser: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",
-      required: true,
+    },
+    place: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Place",
     },
     invitedUsers: [
       {
@@ -27,10 +26,10 @@ const EventSchema = mongoose.Schema(
       },
     ],
     location: {
-      address: { type: String, required: true },
-      postalCode: { type: String, required: true },
-      city: { type: String, required: true },
-      country: { type: String, required: true },
+      address: { type: String },
+      postalCode: { type: String },
+      city: { type: String },
+      country: { type: String },
     },
     description: {
       type: String,
