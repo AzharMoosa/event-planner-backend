@@ -61,12 +61,14 @@ const updatePlace = asyncHandler(async (req, res) => {
   const place = await Place.findById(req.params.id);
 
   if (place) {
-    place.name = name;
-    place.description = description;
-    place.location = location;
-    place.image = image;
-    place.rating = rating;
-    place.info = info;
+    place.name = name || place.name;
+    place.description = description || place.description;
+    place.location = location || place.location;
+    place.image = image || place.image;
+    place.rating = rating || place.rating;
+    place.info = info || place.info;
+    const updatedPlace = await place.save();
+    res.json(updatedPlace);
   } else {
     res.status(401);
     throw new Error("Place Does Not Exists");
@@ -83,6 +85,8 @@ const addKeyword = asyncHandler(async (req, res) => {
 
   if (place) {
     place.keywords = [...place.keywords, keyword];
+    const updatedPlace = await place.save();
+    res.json(updatedPlace);
   } else {
     res.status(401);
     throw new Error("Place Does Not Exists");

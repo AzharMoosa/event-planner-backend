@@ -54,10 +54,19 @@ const createEvent = asyncHandler(async (req, res) => {
 // @route       PUT /api/events/:id
 // @access      Private
 const updateEvent = asyncHandler(async (req, res) => {
-  const {} = req.body;
+  const { name, isCustom, place, location, description, limit } = req.body;
+
   const event = await Event.findById(req.params.id);
+
   if (event) {
-    res.json(event);
+    event.name = name || event.name;
+    event.description = description || event.description;
+    event.isCustom = isCustom;
+    event.place = place || event.place;
+    event.location = location || event.location;
+    event.limit = limit || event.limit;
+    const updatedEvent = await event.save();
+    res.json(updatedEvent);
   } else {
     res.status(404);
     throw new Error("Event Not Found");
