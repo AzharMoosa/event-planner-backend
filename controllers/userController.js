@@ -1,5 +1,6 @@
 import asyncHandler from "express-async-handler";
 import User from "../models/User.js";
+import Event from "../models/Event.js";
 import generateToken from "../utils/generateToken.js";
 
 // @desc        Login User
@@ -88,10 +89,11 @@ const getUserInfo = asyncHandler(async (req, res) => {
 // @access      Private
 const getUserEvents = asyncHandler(async (req, res) => {
   const user = await User.findById(req.user._id);
+  const userEvents = await Event.find({ hostUser: req.user._id });
 
   if (user) {
     res.json({
-      invitedEvents: user.invitedEvents,
+      events: [...userEvents, ...user.invitedEvents],
     });
   } else {
     res.status(400);
