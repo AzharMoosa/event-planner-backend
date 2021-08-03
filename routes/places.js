@@ -10,10 +10,7 @@ import {
 } from "../controllers/placeController.js";
 import { protect, admin } from "../middleware/authMiddleware.js";
 
-router
-  .route("/")
-  .get(protect, admin, getPlaces)
-  .post(protect, admin, createPlace);
+router.route("/").get(protect, getPlaces).post(protect, admin, createPlace);
 router.route("/:id/keyword").put(protect, admin, addKeyword);
 router
   .route("/:id")

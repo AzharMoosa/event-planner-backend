@@ -116,13 +116,13 @@ const inviteUser = asyncHandler(async (req, res) => {
     // Updates Invited Events Array For User One
     const updateUserOne = await User.findOneAndUpdate(
       { _id: userOne },
-      { $push: { invitedEvents: inviteSend.event } }
+      { $push: { invitedEvents: inviteSend._id } }
     );
 
     // Updates Invited Events Array For User Two
     const updateUserTwo = await User.findOneAndUpdate(
       { _id: userTwo },
-      { $push: { invitedEvents: inviteRecieve.event } }
+      { $push: { invitedEvents: inviteRecieve._id } }
     );
 
     res.json(event);
@@ -143,12 +143,12 @@ const acceptInvite = asyncHandler(async (req, res) => {
 
   if (event) {
     await InvitedEvent.findOneAndUpdate(
-      { requester: userOne, recipient: userTwo },
+      { requester: userOne, recipient: userTwo, event: req.params.id },
       { $set: { status: 3 } }
     );
 
     await InvitedEvent.findOneAndUpdate(
-      { recipient: userOne, requester: userTwo },
+      { recipient: userOne, requester: userTwo, event: req.params.id },
       { $set: { status: 3 } }
     );
 
@@ -172,20 +172,22 @@ const declineInvite = asyncHandler(async (req, res) => {
     const inviteSend = await InvitedEvent.findOneAndRemove({
       requester: userOne,
       recipient: userTwo,
+      event: req.params.id,
     });
 
     const inviteRecieve = await InvitedEvent.findOneAndRemove({
       recipient: userOne,
       requester: userTwo,
+      event: req.params.id,
     });
 
     const updateUserOne = await User.findOneAndUpdate(
       { _id: userOne },
-      { $pull: { invitedEvents: inviteSend.event } }
+      { $pull: { invitedEvents: inviteSend._id } }
     );
     const updateUserTwo = await User.findOneAndUpdate(
       { _id: userTwo },
-      { $pull: { invitedEvents: inviteRecieve.event } }
+      { $pull: { invitedEvents: inviteRecieve._id } }
     );
 
     res.json({ message: "Event Declined" });

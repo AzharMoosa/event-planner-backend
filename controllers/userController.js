@@ -63,7 +63,16 @@ const registerUser = asyncHandler(async (req, res) => {
 // @desc        Get Users
 // @route       GET /api/users
 // @access      Private
-const getUsers = asyncHandler(async (req, res) => {});
+const getUsers = asyncHandler(async (req, res) => {
+  const users = await User.find({}, { firstName: 1, lastName: 1, _id: 1 });
+
+  if (users) {
+    res.json(users);
+  } else {
+    res.status(400);
+    throw new Error("Users Not Found");
+  }
+});
 
 // @desc        Get User By ID
 // @route       GET /api/users/info
@@ -90,16 +99,19 @@ const getUserInfo = asyncHandler(async (req, res) => {
 // @access      Private
 const getUserEvents = asyncHandler(async (req, res) => {
   const user = await User.findById(req.user._id);
-  const userEvents = await Event.find({ hostUser: req.user._id });
-  for (let i = 0; i < user.invitedEvents.length; i++) {
-    const event = await Event.findById(user.invitedEvents[i]);
-    userEvents.push(event);
-  }
-
-  const uniq = new Set(userEvents.map((e) => JSON.stringify(e)));
-  const events = Array.from(uniq).map((e) => JSON.parse(e));
 
   if (user) {
+    const userEvents = await Event.find({ hostUser: req.user._id });
+    for (let i = 0; i < user.invitedEvents.length; i++) {
+      const invitedEvent = await InvitedEvent.findById(user.invitedEvents[i]);
+      if (invitedEvent.status == 3) {
+        const event = await Event.findById(invitedEvent.event);
+        userEvents.push(event);
+      }
+    }
+
+    const uniq = new Set(userEvents.map((e) => JSON.stringify(e)));
+    const events = Array.from(uniq).map((e) => JSON.parse(e));
     res.json({
       events,
     });
@@ -113,34 +125,19 @@ const getUserEvents = asyncHandler(async (req, res) => {
 // @route       GET /api/users/invites
 // @access      Private
 const getUserInvites = asyncHandler(async (req, res) => {
-  const user = await Event.aggregate([
-    {
-      $lookup: {
-        from: InvitedEvent.collection.name,
-        let: { invitedEvents: "$invitedEvents" },
-        pipeline: [
-          {
-            $match: {
-              recipient: req.user._id,
-              $expr: { $in: ["$_id", "$$invitedEvents"] },
-            },
-          },
-          { $project: { status: 1 } },
-        ],
-        as: "invitedEvents",
-      },
-    },
-    {
-      $addFields: {
-        inviteStatus: {
-          $ifNull: [{ $min: "$invitedEvents.status" }, 0],
-        },
-      },
-    },
-  ]);
+  const user = await User.findById(req.user._id);
+
   if (user) {
+    const userInvites = [];
+    for (let i = 0; i < user.invitedEvents.length; i++) {
+      const invitedEvent = await InvitedEvent.findById(user.invitedEvents[i]);
+      if (invitedEvent.status == 2) {
+        const event = await Event.findById(invitedEvent.event);
+        userInvites.push(event);
+      }
+    }
     res.json({
-      user,
+      userInvites,
     });
   } else {
     res.status(400);
