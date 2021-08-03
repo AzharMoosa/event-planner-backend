@@ -8,6 +8,7 @@ import {
   updateUser,
   deleteUser,
   getUserEvents,
+  getUserInvites,
 } from "../controllers/userController.js";
 import { protect } from "../middleware/authMiddleware.js";
 
@@ -15,6 +16,7 @@ router.route("/").post(registerUser).get(protect, getUsers);
 router.route("/login").post(loginUser);
 router.route("/info").get(protect, getUserInfo);
 router.route("/events").get(protect, getUserEvents);
+router.route("/invites").get(protect, getUserInvites);
 router.route("/:id").put(protect, updateUser).delete(protect, deleteUser);
 
 export default router;

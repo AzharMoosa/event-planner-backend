@@ -1,6 +1,7 @@
 import asyncHandler from "express-async-handler";
 import User from "../models/User.js";
 import Event from "../models/Event.js";
+import InvitedEvent from "../models/InvitedEvent.js";
 import generateToken from "../utils/generateToken.js";
 
 // @desc        Login User
@@ -90,10 +91,56 @@ const getUserInfo = asyncHandler(async (req, res) => {
 const getUserEvents = asyncHandler(async (req, res) => {
   const user = await User.findById(req.user._id);
   const userEvents = await Event.find({ hostUser: req.user._id });
+  for (let i = 0; i < user.invitedEvents.length; i++) {
+    const event = await Event.findById(user.invitedEvents[i]);
+    userEvents.push(event);
+  }
+
+  const uniq = new Set(userEvents.map((e) => JSON.stringify(e)));
+  const events = Array.from(uniq).map((e) => JSON.parse(e));
 
   if (user) {
     res.json({
-      events: [...userEvents, ...user.invitedEvents],
+      events,
+    });
+  } else {
+    res.status(400);
+    throw new Error("User Does Not Exists");
+  }
+});
+
+// @desc        Get User Invites
+// @route       GET /api/users/invites
+// @access      Private
+const getUserInvites = asyncHandler(async (req, res) => {
+  const user = await Event.aggregate([
+    {
+      $lookup: {
+        from: InvitedEvent.collection.name,
+        let: { invitedEvents: "$invitedEvents" },
+        pipeline: [
+          {
+            $match: {
+              recipient: req.user._id,
+              $expr: { $in: ["$_id", "$$invitedEvents"] },
+            },
+          },
+          { $project: { status: 1 } },
+        ],
+        as: "invitedEvents",
+      },
+    },
+    {
+      $addFields: {
+        inviteStatus: {
+          $ifNull: [{ $min: "$invitedEvents.status" }, 0],
+        },
+      },
+    },
+  ]);
+  if (user) {
+    res.json({
+      user,
     });
   } else {
     res.status(400);
@@ -119,4 +166,5 @@ export {
   deleteUser,
   getUserInfo,
   getUserEvents,
+  getUserInvites,
 };

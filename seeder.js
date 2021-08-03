@@ -5,6 +5,8 @@ import users from "./data/users.js";
 import places from "./data/places.js";
 import User from "./models/User.js";
 import Place from "./models/Place.js";
+import Event from "./models/Event.js";
+import InvitedEvent from "./models/InvitedEvent.js";
 import connectDB from "./config/db.js";
 
 dotenv.config();
@@ -15,6 +17,8 @@ const importData = async () => {
   try {
     await User.deleteMany();
     await Place.deleteMany();
+    await Event.deleteMany();
+    await InvitedEvent.deleteMany();
 
     const createdUsers = await User.insertMany(users);
     const adminUser = createdUsers[0]._id;
@@ -42,6 +46,8 @@ const destroyData = async () => {
   try {
     await User.deleteMany();
     await Place.deleteMany();
+    await Event.deleteMany();
+    await InvitedEvent.deleteMany();
     console.log("Data Destoryed!".white.bgRed);
     process.exit();
   } catch (error) {
