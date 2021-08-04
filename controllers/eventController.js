@@ -33,7 +33,8 @@ const getEvent = asyncHandler(async (req, res) => {
 // @route       POST /api/events
 // @access      Private
 const createEvent = asyncHandler(async (req, res) => {
-  const { name, isCustom, place, location, description, limit } = req.body;
+  const { name, isCustom, place, location, description, limit, date } =
+    req.body;
 
   const createdEvent = await Event.create({
     name,
@@ -42,6 +43,7 @@ const createEvent = asyncHandler(async (req, res) => {
     location,
     place,
     limit,
+    date,
     hostUser: req.user._id,
   });
   if (createdEvent) {
@@ -56,7 +58,8 @@ const createEvent = asyncHandler(async (req, res) => {
 // @route       PUT /api/events/:id
 // @access      Private
 const updateEvent = asyncHandler(async (req, res) => {
-  const { name, isCustom, place, location, description, limit } = req.body;
+  const { name, isCustom, place, location, description, limit, date } =
+    req.body;
 
   const event = await Event.findById(req.params.id);
 
@@ -67,6 +70,7 @@ const updateEvent = asyncHandler(async (req, res) => {
     event.place = place || event.place;
     event.location = location || event.location;
     event.limit = limit || event.limit;
+    event.date = date || event.date;
     const updatedEvent = await event.save();
     res.json(updatedEvent);
   } else {
@@ -136,10 +140,10 @@ const inviteUser = asyncHandler(async (req, res) => {
 // @route       POST /api/events/:id/invite/accept
 // @access      Private
 const acceptInvite = asyncHandler(async (req, res) => {
-  const { userOne } = req.body;
   const userTwo = req.user._id;
 
   const event = await Event.findById(req.params.id);
+  const userOne = event.hostUser;
 
   if (event) {
     await InvitedEvent.findOneAndUpdate(
@@ -163,10 +167,10 @@ const acceptInvite = asyncHandler(async (req, res) => {
 // @route       POST /api/events/:id/invite/decline
 // @access      Private
 const declineInvite = asyncHandler(async (req, res) => {
-  const { userOne } = req.body;
   const userTwo = req.user._id;
 
   const event = await Event.findById(req.params.id);
+  const userOne = event.hostUser;
 
   if (event) {
     const inviteSend = await InvitedEvent.findOneAndRemove({
