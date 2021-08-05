@@ -201,6 +201,34 @@ const declineInvite = asyncHandler(async (req, res) => {
   }
 });
 
+// @desc        Get Already Invited Users
+// @route       GET /api/events/:id/invited
+// @access      Private
+const invitedUsers = asyncHandler(async (req, res) => {
+  const userOne = req.user._id;
+  const event = await Event.findById(req.params.id);
+
+  if (event) {
+    const eventsRequested = await InvitedEvent.find({
+      requester: userOne,
+      event: req.params.id,
+    });
+
+    const usersID = [req.user._id];
+
+    for (let i = 0; i < eventsRequested.length; i++) {
+      usersID.push(eventsRequested[i].recipient);
+    }
+
+    const users = await User.find({ _id: { $nin: usersID } });
+
+    res.json(users);
+  } else {
+    res.status(404);
+    throw new Error("Event Not Found");
+  }
+});
+
 export {
   getEvents,
   getEvent,
@@ -210,4 +238,5 @@ export {
   inviteUser,
   acceptInvite,
   declineInvite,
+  invitedUsers,
 };

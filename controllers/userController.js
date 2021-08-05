@@ -159,7 +159,13 @@ const updateUser = asyncHandler(async (req, res) => {
     user.email = email || user.email;
     user.password = password || user.password;
     const updatedUser = await user.save();
-    res.json(updatedUser);
+    res.json({
+      _id: updatedUser._id,
+      firstName: updatedUser.firstName,
+      lastName: updatedUser.lastName,
+      email: updatedUser.email,
+      token: generateToken(updatedUser._id),
+    });
   } else {
     res.status(404);
     throw new Error("User Not Found");
