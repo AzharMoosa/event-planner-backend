@@ -18,6 +18,7 @@ const loginUser = asyncHandler(async (req, res) => {
       firstName: user.firstName,
       lastName: user.lastName,
       email: user.email,
+      isAdmin: user.isAdmin,
       token: generateToken(user._id),
     });
   } else {
@@ -52,6 +53,7 @@ const registerUser = asyncHandler(async (req, res) => {
       firstName: user.firstName,
       lastName: user.lastName,
       email: user.email,
+      isAdmin: user.isAdmin,
       token: generateToken(user._id),
     });
   } else {
@@ -64,7 +66,10 @@ const registerUser = asyncHandler(async (req, res) => {
 // @route       GET /api/users
 // @access      Private
 const getUsers = asyncHandler(async (req, res) => {
-  const users = await User.find({}, { firstName: 1, lastName: 1, _id: 1 });
+  const users = await User.find(
+    {},
+    { firstName: 1, lastName: 1, email: 1, _id: 1 }
+  );
 
   if (users) {
     res.json(users);
@@ -86,6 +91,7 @@ const getUserInfo = asyncHandler(async (req, res) => {
       firstName: user.firstName,
       lastName: user.lastName,
       email: user.email,
+      isAdmin: user.isAdmin,
       token: generateToken(user._id),
     });
   } else {
@@ -164,6 +170,7 @@ const updateUser = asyncHandler(async (req, res) => {
       firstName: updatedUser.firstName,
       lastName: updatedUser.lastName,
       email: updatedUser.email,
+      isAdmin: user.isAdmin,
       token: generateToken(updatedUser._id),
     });
   } else {

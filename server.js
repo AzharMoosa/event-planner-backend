@@ -4,6 +4,8 @@ import connectDB from "./config/db.js";
 import userRoute from "./routes/users.js";
 import placeRoute from "./routes/places.js";
 import eventRoute from "./routes/events.js";
+import uploadRoute from "./routes/upload.js";
+import path from "path";
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 
 const app = express();
@@ -17,6 +19,10 @@ connectDB();
 app.use("/api/users", userRoute);
 app.use("/api/places", placeRoute);
 app.use("/api/events", eventRoute);
+app.use("/api/upload", uploadRoute);
+
+const __dirname = path.resolve();
+app.use("/uploads", express.static(path.join(__dirname, "/uploads")));
 
 // Error Middleware
 app.use(notFound);

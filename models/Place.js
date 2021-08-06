@@ -21,7 +21,7 @@ const PlacesSchema = mongoose.Schema({
   keywords: [{ type: String }],
   rating: {
     type: Number,
-    default: 0,
+    default: 1,
   },
   info: {
     type: String,

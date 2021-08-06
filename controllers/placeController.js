@@ -38,6 +38,7 @@ const createPlace = asyncHandler(async (req, res) => {
   const place = new Place({
     name: "Sample Name",
     description: "Sample Description",
+    image: "/images/sample.jpg",
     location: {
       address: "Sample Address",
       postalCode: "Sample Post Code",
@@ -49,7 +50,7 @@ const createPlace = asyncHandler(async (req, res) => {
   });
 
   const createdPlace = await place.save();
-  res.status(201).json(createdPlace);
+  res.status(200).json(createdPlace);
 });
 
 // @desc        Update Place

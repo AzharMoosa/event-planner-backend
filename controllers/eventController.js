@@ -102,6 +102,13 @@ const inviteUser = asyncHandler(async (req, res) => {
   const userOne = req.user._id;
 
   const event = await Event.findById(req.params.id);
+
+  if (event.currentInvited == event.limit) {
+    res.status(404);
+    res.json({ message: "Maximum People Reached" });
+    return;
+  }
+
   if (event) {
     // Send Invite From User One To User Two
     const inviteSend = await InvitedEvent.findOneAndUpdate(
@@ -128,6 +135,10 @@ const inviteUser = asyncHandler(async (req, res) => {
       { _id: userTwo },
       { $push: { invitedEvents: inviteRecieve._id } }
     );
+
+    event.currentInvited += 1;
+
+    await event.save();
 
     res.json(event);
   } else {
@@ -220,7 +231,10 @@ const invitedUsers = asyncHandler(async (req, res) => {
       usersID.push(eventsRequested[i].recipient);
     }
 
-    const users = await User.find({ _id: { $nin: usersID } });
+    const users = await User.find(
+      { _id: { $nin: usersID } },
+      { firstName: 1, lastName: 1, _id: 1 }
+    );
 
     res.json(users);
   } else {

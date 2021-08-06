@@ -33,6 +33,11 @@ const EventSchema = mongoose.Schema(
       type: String,
       required: true,
     },
+    currentInvited: {
+      type: Number,
+      required: true,
+      default: 1,
+    },
     limit: {
       type: Number,
     },
