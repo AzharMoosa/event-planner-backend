@@ -37,7 +37,6 @@ const getPlace = asyncHandler(async (req, res) => {
 const createPlace = asyncHandler(async (req, res) => {
   const place = new Place({
     name: "Sample Name",
-    description: "Sample Description",
     image: "/images/sample.jpg",
     location: {
       address: "Sample Address",
@@ -57,13 +56,12 @@ const createPlace = asyncHandler(async (req, res) => {
 // @route       PUT /api/places/:id
 // @access      Private/Admin
 const updatePlace = asyncHandler(async (req, res) => {
-  const { name, description, image, location, rating, info } = req.body;
+  const { name, image, location, rating, info } = req.body;
 
   const place = await Place.findById(req.params.id);
 
   if (place) {
     place.name = name || place.name;
-    place.description = description || place.description;
     place.location = location || place.location;
     place.image = image || place.image;
     place.rating = rating || place.rating;

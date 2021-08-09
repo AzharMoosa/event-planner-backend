@@ -58,11 +58,6 @@ async function writeToFile(results) {
       `{
               name: "${place.name}",
               image: "${imageURL}",
-              description: "${place.name
-                .replace("\n", " ")
-                .replace("-", "- ")
-                .replace(/(<([^>]+)>)/gi, "")
-                .replace(/([^a-z0-9 ._-]+)/gi, "")}",
               location: {
                 address: "${address}",
                 postalCode: "${postCodeCity[1]} ${postCodeCity[2]}",
