@@ -2,7 +2,7 @@ const places = [
   {
     name: "The Clermont, Charing Cross",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1666&photoreference=Aap_uECB7QPLqdnw3_vgu7f_luHPmmmej11bGdNZd-D3EuwyI6Togqw4eUZ0w3aTu6RsV3nuS_VREP7SI1RP-GFVyMBgUOj2s7OMiaZO3LCtoX-7JXs3Wxa2HPx0I77HzV2UXPUv4593jFnXcqPN-aZSBCgPPC6KIuDysH8Nt6fIbSK4loVR&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1666&photoreference=Aap_uECykOy6EJAW1U94Nb07sZnuFBHADT-dzSEoSJAcPPtRZzbH-wf0N9ZK1ovUiY7wEwygO0QSyGiwoSTUg-ZcNbGAcFDAXNRj_YzX2wP0tXb5P620borbTfvBCS05W-y8bB5SbasVBDJ0Gko1UyFAVZHzUkfAKzqy87BOfc87FZm_xa_y&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     description: "The Clermont Charing Cross",
     location: {
       address: "Strand",
@@ -24,7 +24,7 @@ const places = [
   {
     name: "Premier Inn London Leicester Square hotel",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4288&photoreference=Aap_uEBdx__sWeOCzOMh7jdw6BsFJUC9e6JoHCvPRjfNUf5Cxk-FJDW8EORWoexfOK--dIICmAFr62P8cZTtX_LDWviBeCS5eMu6n5N3G_8n420T200MZ1iBRpcRA4RTCF4cbFi3Pnocz9GE36525gIlbyNpQnxDNEbJHY-7ckmYnuYqS8yz&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4288&photoreference=Aap_uEDU9O_VRSrt6eNoj5oBegfS-Qjgqfr8Hx-9__9T8zq-w2oM1lKKK6xsAxYjyfVIq1ARCyfC95GecdiBC3HTCS2VK3D87815pOT3-AgIuU0SZ0t2ASg9xuy63gpq1in-l_vc4wYxkHhKlOwKxap8tFMICH68d-M2PBPvM3hSERdZnDQe&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     description: "Premier Inn London Leicester Square hotel",
     location: {
       address: "Queens House, 1 Leicester Square",
@@ -45,7 +45,7 @@ const places = [
   {
     name: "Covent Garden Hotel",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=8688&photoreference=Aap_uEB4Bj0hFgweamlDAmyIQOmGnV1dKEEPVZ_MzCotvMmrQe6biPzvjJ5XMxyNsgM7RpPTyEvBEOeQWbh3Dn_dSMOP3qwQjB_HQDexRFsDXhPP8O5w0ApLrTW9MgPi__3TfO3AOZaRTM99LUNWw1QHPgaOqli5nwgfSGrZkAQkzu7V_EVr&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=8688&photoreference=Aap_uEC8LHx2nYI35irUR5fxayhjfzkHQJotasEhkttGfcEEXuB3Fni458xP1Y1uuc2Spb0zHtfRMFQ9pG9u1lU_AUIXBuL0yzxBPfaLjOdQmC-EO2uLQ9FMgbJyPZDPso9qCRBtn6iyacl1e9skdXhhaWvx0lOkXm_rlo4ksKYF-jVBnWCs&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     description: "Covent Garden Hotel",
     location: {
       address: "10 Monmouth St",
@@ -66,7 +66,7 @@ const places = [
   {
     name: "Premier Inn London County Hall hotel",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1500&photoreference=Aap_uEAfPdN-3ocV2Booc8HFGAHoBArNDPY6UHpwkAdcxDoUftXP9T-Q-PIo_z8MhgMyMxbBWD4NQN3qWBmIUx-JJFs90PSrtuw4pyHCs8GOyKlOeAjPlyDxTarxf0weaFPmMYoY1pRiAID9Q9wJ3hPSj-lQTGqudqL_u3Mh4VmnCNHqQA5F&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1500&photoreference=Aap_uEDCrF_6NJus2TVo3kc70lXzopEXqooNMSMVlKIK_1FR6JQixJfvjAwAgAQtA_3jvDjGcb9Cn3TrHfppYUkC1DEIzaraOqgV-sqsnqnSOrhhxgZYpA4H5s5H6lXBNSCRA5C7ZabA3EmRv7xUrG-zHJ-X1PPNIulNUzdp7CKa3dT-A6P2&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     description: "Premier Inn London County Hall hotel",
     location: {
       address: "County Hall, Belvedere Rd",
@@ -87,7 +87,7 @@ const places = [
   {
     name: "Hotel Sofitel London St James",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=6000&photoreference=Aap_uECZ0lFNxzBL5hR895p-RweGlwgKxf_wEuCIGTWAli09uci7aEN5dMAeTtHi8rKMfmIzJiY2SMs-9z-336tltKukfYbKPG-HLRaFNz7uKITzMrZDld1fOPvUqoS0HoFVnliB7qmoD8f80bbQcA92hsABqKf9ajP0dYNBIXCBctyU27Ye&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=6000&photoreference=Aap_uEAaXA07gyG428if9hzoXtxI2kB8nUAO_F0cbUHeyquobq5vjhQ2KhKP7AuYCl3au77zGJ6yHPX-XGInVYXoZfwEXADu_jAQ7KUozdBP9LBiMQ1BTjCQLFWI2JQ3WMZPTAMOOEmof07q7L5xQRd2giA1koyck3Jm2VJlFsNq832uQa8j&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     description: "Hotel Sofitel London St James",
     location: {
       address: "6 Waterloo Pl, St. James's",
@@ -108,7 +108,7 @@ const places = [
   {
     name: "Dean Street Townhouse",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3000&photoreference=Aap_uEBTZwcwZbhJcHj2AxJqisLz4s5XDRgTyw8FruVFzG3cwNeltJXzKwfCUQ6xwpYjvObcPkeFw0dIq4lv-ahCbD81Dw8_Xv9vBEYR3y9ryo0mGd0v-5SdJPTHOB_rzvLnO6SbVaioEd4t4bSYCpRtM74ueFkWTknV1LlL_gtrRftjqjsW&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3000&photoreference=Aap_uECYNQX95yh7GNu_X2Wmkr6zwQJsNRudV-6efuMIyyrRIFyGEVY6OJGh3JT1SkgJf-KxwKIZqNRvcVpCypeNq5Puxv35DCu_qvj3g2oJJS4fq8ajpL56n7ZnSsjs7f48NGJ1eIT1hJZJuG6qjkA7-1b6F8f4SJHnywNBZLK2YTkyCw6x&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     description: "Dean Street Townhouse",
     location: {
       address: "69-71 Dean St",
@@ -123,7 +123,7 @@ const places = [
   {
     name: "St. James's Hotel and Club - Mayfair London",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3991&photoreference=Aap_uEBF2IZp7Eu0p-WfYVU2cBnJKMFZLUqKY0yNGQ8zI8htq4wBWsuoqxlZXYUs6WKoVfyW5FC22Txy5myHz2pYARaTX-6lEfo2uc6sTkZDNJoBqAVVCz_oMLKyaMrPr1YatOflJ1hGQcEAeuwZ1LxwXizOkkAVWIaa-Dsc4vuRvNUqOR2y&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3991&photoreference=Aap_uEDQqz6UZTb1czaBw15AagapXAVzKxfI7w6tNUVWDMwNPeOXYzW2hTD3r3ncDMNk-XGlM4cWVGiRVoH1EqJWbuxNbLz-8WBskY8uN8U7LJvEGYUxzziaGVPcG8-Nyih-8wqxJX3cUc--Tcc8oU5yKl-yYoozU8WEQracl06kUtJ7irt7&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     description: "St. Jamess Hotel and Club -  Mayfair London",
     location: {
       address: "7-8 Park Pl, St. James's",
@@ -144,7 +144,7 @@ const places = [
   {
     name: "Karma Sanctum Soho London",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1000&photoreference=Aap_uEDm7ropm9GXgJ8ZeOQ8K33P2x9XEI5_rrxTRU-fvSAhl1vRW9_9PshqRoqyZs1YW2EdOeSzaF6xY8_21MrkM0-bC6yddxXPc7Ek-Qr_Vv6LDYLEb42-8RZbSRsggGJKciQ6m32Azzp1QBs8I2SuZGjdCfZPdIWyfYi17NBu5i19aDKh&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1000&photoreference=Aap_uEDxjzdsVumoVarw-xiC5jTFiki8sftk3KNIAXEumUCT9dh0tggTkWEJQGhbuY_8dDaifXTPP-KepLfYT9jlPILZa8iKoFSiRoOeOctsZuh4uoCxsoA1VBUvjbErqPmKvNpdkkncEJ9W9O_-tVwWfze-pWOjRGv5bMfC407ZXPH4hUg3&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     description: "Karma Sanctum Soho London",
     location: {
       address: "20 Warwick St",
@@ -166,7 +166,7 @@ const places = [
   {
     name: "Premier Inn London Waterloo (Westminster Bridge) hotel",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5263&photoreference=Aap_uEAD6OmWuih0kW5ghYvd3xbe_czFp9NwHm0uiwb1CvvLYtfPbTKAydeRO_O6OAuBNB1CLLDufS-_Cx-Swgh3Wf4iAyYgULBdtK6CdubiK2j-NoSQSRsQBKyc3EdZjpT8cPDDYhhjBobqYu9wGnlSC3LsEV-sUyf9vg5cwL8oQ-I35j4M&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5263&photoreference=Aap_uEARKihlVbZjRLJTVnYs57u5UlnVHX8XWvSMLB3H425F32oZW5wLjh62Jler8pQWd2dYzoQELD5XDYtZsTc6eUus1taOTIdkAqjGG_qYkZoJBimdQcKxag9CCVEIkv-evaV_GXxYbxhhHiDPc3F_YwQekO5gLr9GATI5QKXWqBqEvyQO&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     description: "Premier Inn London Waterloo Westminster Bridge hotel",
     location: {
       address: "85 York Rd",
@@ -187,7 +187,7 @@ const places = [
   {
     name: "Thistle Piccadilly Hotel",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3888&photoreference=Aap_uEBNEjdPqVjk0-HNdoOW3CSNYT94iDacHa-HIEhu6tRU8ZZQ4VlU_2Cbury6Wkm-SBfV23PFTFl3dxCP9_kGKtcUDhbfPAP2ALr33_0DPzXVarSZQbibkzyDU1H5lP3dDYyK1MgCQPUwTSUvvfwGL9V_wG1Vpn2FgrWEpDT77Uq6D-y1&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3888&photoreference=Aap_uED3bBvGWVgTIsElFpjUy-u5Y9T1iUbPFcS_ONt2NSbwgC6b4ByZuIUKXOYLcueIKxxuPHf0MZ2qT8GV5Xpip6zNg3Ml_ae9VkT0pohFsLdFW9mhkHIKxDxedBJNlew2w4tfP4qqQJFyqVK2awWap6DwTFzCAT5VEm8M61gEufHdkhMH&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     description: "Thistle Piccadilly Hotel",
     location: {
       address: "Coventry St",
@@ -209,7 +209,7 @@ const places = [
   {
     name: "The Ivy",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4928&photoreference=Aap_uEDYflFd0vBcuU0wPXwsqZOMG2oYKtmkPjLwUwdfY1cAdbIh-eIgkLTeUolPK7aqyMvRQzsNPB6Vkz8IxsbrZDeP-4hOeQg1rC2ge9GzTBGlzJRUBAo9D74GQX05bvHzHhaislO4u8LQoDB_8S3F79Lqqz7X-T0g_Nvu_YbzCxUSPKBH&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4928&photoreference=Aap_uEDSWlhf0YIf-fD_5Vo74phZk_zNiNjTZKLHDOJtCTHJrFr41qIWK6wd3g8GInX4KwLQOnlOJdIUoaAM2q4EdL-GeE56VuemG-ejc8F5qls_8TtsW24aoYmSkJMX6A1j5uQKTwHOqI5NJtMb4iB1KbFj3C8tsIf3hL69JwblBSMBz3OV&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     description: "The Ivy",
     location: {
       address: "1-5 West St",
@@ -231,7 +231,7 @@ const places = [
   {
     name: "Boyds Grill & Wine Bar",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2560&photoreference=Aap_uECKnVpqxYFNrRlEKqEtCWSYIljykhurjmPIgWZ4wUSoceevaMYwslvc0qYGcUwcjls93FCEofR6S4z2bgSfCyAfvvkKnvLE-F2LRFTNtTum5rC5bEcplJ6pb2KP7DqJEY6BiTdkT6EcANysi6V_LyyjIU3JrrKJWAkwQcziRcx4scpa&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2560&photoreference=Aap_uEDo13pSKb726NAJbG6GBw4i4eUH4sYtiaRITXCQb-Qi6CsQsiO7ZMFXAKlUbQaaFSWnlXaMnEx11n5GqhLzqgZypMMzo-TcUeMduBIYHmzBFddeYOb00ehE1z8x16MM8X3abU2KJmsd2ATdUPyxGB4f6wNk-wyD2kdix1kVpRltbCdT&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     description: "Boyds Grill  Wine Bar",
     location: {
       address: "8 Northumberland Ave",
@@ -252,7 +252,7 @@ const places = [
   {
     name: "Wong Kei",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4752&photoreference=Aap_uEAUwHlFz_1AcZOcvi3GnW6xOp6Vb5H1WPOOQiyZeTJhn6E0MKYFRS-yW-0RWQ5Td7AVGcHFqE_8GfZrLFF8iYH0ijsRWO5lGknAXiS4fE1aB3YqRViRRKQHYRM1_by0cH_w3xlnkqjwmoJe-6Tu7Ekda4T6vLFK-Rya8ChLcxCz6I6q&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4752&photoreference=Aap_uEDi1C_rNHcJiI_G0BSMvCIRLLkS4l4N6Br_bouW2xj4tIOm7iw3IKHAOt9dGaFlZv-tHSmqHSZI-Glw6Cs-1TYsVFPU8Ls2ijWV3SYmiD49NkekaVRcCMM2W9Hf9xbEy895Ciq-aCM-LWKXEOuEuLI2H87-PNiFeIgLWTmivFx9AmzM&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     description: "Wong Kei",
     location: {
       address: "41-43 Wardour St",
@@ -267,7 +267,7 @@ const places = [
   {
     name: "Tattershall Castle",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5467&photoreference=Aap_uEBxkZ2R8PE858AlXK3p6LIxYeMEucu4Rx8yg92yygZSgFy3dt0u8GQcVeAGas_4t_mb4c6W8kfyBcE_TYvMZuVD14xKchgRA9ZhCQwkvYNoJtwNu5Muf_2_-9rOKj1uDUtQZ4Fah5qfkvNqM4zAUtsfh1bwQogM9ADZ_agps8EBfGdA&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5467&photoreference=Aap_uEAO4L4ScHTOpJUQl_m7XUNDMkcXL92v03Tj58qOMZ85wmMT8DYxJt0W4l7BgVqb-fTLLXQC4YgoctP8kyMr6SxUgulJRCVsV944GahYbT39_rhDkRYs5LpBVdQIVOKs6we9FtGSRo9kCbRWlczulWSK9yM7QEmqmJ95-HJhrrQKBfv-&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     description: "Tattershall Castle",
     location: {
       address: "Victoria Embankment",
@@ -289,7 +289,7 @@ const places = [
   {
     name: "Savini | Criterion",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uEDNpxFCdmX79fZhhuBjlbfq1RnwV1wQQIhNwGjz0cM7k4_Q0OoZ1c3hCB-Wyu6FPpC31rowFdbawOVYmquahSwNCLqOr8YNWMF6ZIiO3LF2KWFeNYhPR21_B-xjLX2xYMz21U5Mj3g8LgFFP-t6kd9mvTY-sWVedwkCMAZ7ut48Zvar&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uEA4idn50si_2mgsstIBcxxNXLWuJEwQaUX5EYZNlBtH3_x5NC52pTW4xbvwRJ_YagELNgfzLRZKkhhTk6m9oo1JbHcX_Awyh5C7YVM1IU_JP15slI98UHH9ctm3e3_j0WJdve79zsOoTrlFwoRoBmJDOptUcs1R82cGyXltHezOdFI1&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     description: "Savini  Criterion",
     location: {
       address: "224 Piccadilly, St. James's",
@@ -310,7 +310,7 @@ const places = [
   {
     name: "Rainforest Cafe",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=Aap_uEDu3YjhTsUQZdlrv4dpB11uXZ8bFNeLpzd7bZzF-NKt4S70BdjUjf48h0QqIYB_RN7JlfFQE0IjV7oM_EB5U9qyTJv0QMNOC1WPpjw2oghZvgMVBW2vLcaaJBFAG0LRBt3MqoihdbhjtgWtDLz4-UvOjcvauR8pPSyzMSimfU9r5VcY&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=Aap_uEDYFECW8vxWvI4KWxbLLbHP3c3SgsdOC54GPJuh0m-X91iZWBdgnl5PZ0pzzWzl8yFPaOL3K5Q537mqOKpY-yo42EkM0IKV51DZEm7sF6l7QtmGAchfD1_pd77F6XAl02uI46mCLFcZQm_a_hBmnTia1M2rxQI8vM9HHAhrvIYCrg1P&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     description: "Rainforest Cafe",
     location: {
       address: "20-24 Shaftesbury Ave",
@@ -325,7 +325,7 @@ const places = [
   {
     name: "Simpson's in the Strand",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uECoIOGy2eLI6GBO3mRQwpZclkyI3NQPqrfCt1RxqI_eRoNIdQghFuI7_TwH4ZOe1VvyVH4WWpa2wNgFk8x6g6mieqRGfPknqKzr-aF2SAVap_whnLQMEl1_Qx42aRUOW3O9t0XQuxMN2ZWss8fxdDpKeq3R_0x3DJTvNdrZRT9yQBwz&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uECNG0vneGzQcAqd3TI9p5QkGPXvg9lA0auU3rbtYRsUZp64-I6l-VwmFF4N3bWWF6BE9KYCIKkDvWapERy0H4ODoxMlUFFd629-Z1jiyWmB5xyOUlgvOFdu-QI4gmDaCeKY3qlb0K32FnTZfrjCDdclWa5h2wQ34UStYiCuq-xnbuj_&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     description: "Simpsons in the Strand",
     location: {
       address: "100 Strand",
@@ -344,9 +344,30 @@ const places = [
     info: "http://www.simpsonsinthestrand.co.uk/",
   },
   {
+    name: "Belgo Centraal",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=6144&photoreference=Aap_uEBbmYCdR4MkvRWIDutSCQH24cxDPEgcDTMcsgw-Y1sFe1X7ryTuhG6BBMrjWvPm0GsYCKAKWQa8xK7dXwrZ60ekI7xbCfb2VWfaU0zOzGCMPVpWofl0emVtX-_4HLPDgs1J3_5_eAxav4CgpAu9JzkXQg92XIBphPYfsnirnW4vFxcD&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    description: "Belgo Centraal",
+    location: {
+      address: "50 Earlham St",
+      postalCode: "WC2H 9LJ",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "restaurant",
+      "bar",
+      "food",
+      "point_of_interest",
+      "establishment",
+    ],
+    rating: 4.1,
+    info: "undefined",
+  },
+  {
     name: "Hawksmoor Seven Dials",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=Aap_uEBUm-ds0-esHWed7YQSKconzFLVMl2zcNyVQdyZPtbg2MH92xjkkMVIVCkCMtDIXTUhA5gERrCQVozVgL-XQWvd98v7QsUIGrfiaNu2tXtccawGEilBq1Qw1DH9NOIHqC6BCEbEjP9klgfJ6Dc8d54V4BvgQuo6kcAgNqd7Vcf-Cy0a&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=Aap_uEAtGQPG3hgYFGlgX2pp30PaT10Owvaox_4zvPc0pKzT6Dso9yPehM3YcBcl5wBSbeZXpotbq1drCSjTCyxFkpOE94E3NlOlsUIXMM3C-Ne5q9JN2Vig_vK2DiG7_2HFxgq9s5FiRXnVF53nqWq2ETz28YYCua7BbhWJc4n5Pq0qoOJF&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     description: "Hawksmoor Seven Dials",
     location: {
       address: "11 Langley St",
@@ -367,7 +388,7 @@ const places = [
   {
     name: "Veeraswamy",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1300&photoreference=Aap_uEDHWm2K8OCYEgn_7McCwMD7kqmVyku8N30qdAKDM1FcYjzLXIX0fkpqLTbqKtNJbJZivLlBVIJg7dweCbsIkoNSAIzXaBToYqKIJoCJSxjE2I4cLFtbiOUCF6OP15N0WFsSI-vlgvN3ZyyhcipJxGwQJR7Mo3-FkUMECYGmFhny3BqU&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1300&photoreference=Aap_uEAWO9X3KENlStS4wuJ13tNOn6-Ebz8AyKVaMsBpyRfR3tsdX1b_wLGZABr5jCu6E-7lmcSYQh24-MYmMl6CCW1FNsWXYdNUMJuWsmwPGo6N1GYm_kyKUFs4eaTFLp3q7ecyixuUdv-AJ4WPs77IcmHYHpzlyEorOT5PjFQxzZsvuFob&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     description: "Veeraswamy",
     location: {
       address: "Victory House, 99-101 Regent St",
@@ -378,27 +399,6 @@ const places = [
     keywords: ["restaurant", "food", "point_of_interest", "establishment"],
     rating: 4.2,
     info: "http://www.veeraswamy.com/",
-  },
-  {
-    name: "Opera Tavern",
-    image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=535&photoreference=Aap_uEB-mfQb30qUL8fHANpo5sa0k2VjeI4n2hls4tzaitXtm5z_XUGTu1bov9iQQYl99m3gTQ7Mmaf642A4iLskNh4NZxRsEAr24oQxT6K3i7GrRUAzgn7e5BRZ3VIAIjDuN_xxzJ21iqe59S6q7QPJveIgtw6YS21uxpsrdBaToP5cl-pk&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
-    description: "Opera Tavern",
-    location: {
-      address: "23 Catherine St",
-      postalCode: "WC2B 5JS",
-      city: "London",
-      country: "UK",
-    },
-    keywords: [
-      "restaurant",
-      "bar",
-      "food",
-      "point_of_interest",
-      "establishment",
-    ],
-    rating: 4.3,
-    info: "https://www.saltyardgroup.co.uk/opera-tavern/",
   },
 ];
 export default places;

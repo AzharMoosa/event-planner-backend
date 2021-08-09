@@ -8,12 +8,25 @@ dotenv.config({ path: "../.env" });
 
 const API_KEY = process.env.GOOGLE_PLACES_API;
 
-const URL = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=51.507351,-0.127758&radius=1000&types=restaurant&key=${API_KEY}`;
-
 async function fetchPlaces() {
   try {
-    const { data } = await axios.get(URL);
-    const results = data.results;
+    let pageToken = "";
+    let URL = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=51.507351,-0.127758&radius=1000&types=restaurant&key=${API_KEY}&pagetoken=`;
+    let results = [];
+
+    for (let i = 0; i < 5; i++) {
+      const API_URL = URL + pageToken;
+      const { data } = await axios.get(API_URL);
+      if (data == null) {
+        break;
+      }
+      results = [...results, ...data.results];
+      if (data.next_page_token == null) {
+        break;
+      }
+      pageToken = data.next_page_token;
+    }
+
     return results;
   } catch (err) {
     console.error(err);
