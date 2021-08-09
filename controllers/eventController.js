@@ -7,7 +7,7 @@ import User from "../models/User.js";
 // @route       GET /api/events
 // @access      Private
 const getEvents = asyncHandler(async (req, res) => {
-  const events = await Event.find({ user: req.user._id });
+  const events = await Event.find({ hostUser: req.user._id });
   if (events) {
     res.json(events);
   } else {
@@ -90,6 +90,23 @@ const deleteEvent = asyncHandler(async (req, res) => {
   } else {
     res.status(404);
     throw new Error("Event Not Found");
+  }
+});
+
+// @desc        Delete Event
+// @route       DELETE /api/events
+// @access      Private
+const deleteMyEvents = asyncHandler(async (req, res) => {
+  const events = await Event.find({ hostUser: req.user._id });
+
+  if (events) {
+    for (let i = 0; i < events.length; i++) {
+      await Event.findByIdAndDelete(events[i]._id);
+    }
+    res.json({ message: "Events Removed" });
+  } else {
+    res.status(404);
+    throw new Error("Events Not Found");
   }
 });
 
@@ -233,7 +250,7 @@ const invitedUsers = asyncHandler(async (req, res) => {
 
     const users = await User.find(
       { _id: { $nin: usersID } },
-      { firstName: 1, lastName: 1, _id: 1 }
+      { firstName: 1, lastName: 1, _id: 1, email: 1 }
     );
 
     res.json(users);
@@ -253,4 +270,5 @@ export {
   acceptInvite,
   declineInvite,
   invitedUsers,
+  deleteMyEvents,
 };

@@ -10,10 +10,15 @@ import {
   acceptInvite,
   declineInvite,
   invitedUsers,
+  deleteMyEvents,
 } from "../controllers/eventController.js";
 import { protect } from "../middleware/authMiddleware.js";
 
-router.route("/").get(protect, getEvents).post(protect, createEvent);
+router
+  .route("/")
+  .get(protect, getEvents)
+  .post(protect, createEvent)
+  .delete(protect, deleteMyEvents);
 router.route("/:id/invited").get(protect, invitedUsers);
 router.route("/:id/invite").post(protect, inviteUser);
 router.route("/:id/invite/accept").post(protect, acceptInvite);
