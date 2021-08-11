@@ -118,6 +118,7 @@ const getUserEvents = asyncHandler(async (req, res) => {
 
     const uniq = new Set(userEvents.map((e) => JSON.stringify(e)));
     const events = Array.from(uniq).map((e) => JSON.parse(e));
+
     res.json({
       events,
     });

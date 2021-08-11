@@ -8,23 +8,44 @@ dotenv.config({ path: "../.env" });
 
 const API_KEY = process.env.GOOGLE_PLACES_API;
 
+async function fetchByType(type) {
+  let pageToken = "";
+  const radius = 3000;
+  let URL = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=51.507351,-0.127758&radius=${radius}&types=${type}&key=${API_KEY}&pagetoken=`;
+  let results = [];
+  for (let i = 0; i < 5; i++) {
+    const API_URL = URL + pageToken;
+    const { data } = await axios.get(API_URL);
+    if (data == null) {
+      break;
+    }
+    results = [...results, ...data.results];
+    if (data.next_page_token == null) {
+      break;
+    }
+    pageToken = data.next_page_token;
+  }
+
+  return results;
+}
+
 async function fetchPlaces() {
   try {
-    let pageToken = "";
-    let URL = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=51.507351,-0.127758&radius=1000&types=restaurant&key=${API_KEY}&pagetoken=`;
     let results = [];
+    let types = [
+      "restaurant",
+      "bowling_alley",
+      "bar",
+      "art_gallery",
+      "amusement_park",
+      "night_club",
+      "shopping_mall",
+      "tourist_attraction",
+    ];
 
-    for (let i = 0; i < 5; i++) {
-      const API_URL = URL + pageToken;
-      const { data } = await axios.get(API_URL);
-      if (data == null) {
-        break;
-      }
-      results = [...results, ...data.results];
-      if (data.next_page_token == null) {
-        break;
-      }
-      pageToken = data.next_page_token;
+    for (let i = 0; i < types.length; i++) {
+      const places = await fetchByType(types[i]);
+      results = [...results, ...places];
     }
 
     return results;

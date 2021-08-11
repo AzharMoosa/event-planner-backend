@@ -41,7 +41,7 @@ const createEvent = asyncHandler(async (req, res) => {
     description,
     isCustom,
     location,
-    place,
+    place: place == null ? "name" : place,
     limit,
     date,
     hostUser: req.user._id,
