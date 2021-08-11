@@ -15,6 +15,10 @@ app.use(express.json());
 // Connect To MongoDB
 connectDB();
 
+app.get("/", (req, res) => {
+  res.json({ message: "Welcome To Event Planner API" });
+});
+
 // Routes
 app.use("/api/users", userRoute);
 app.use("/api/places", placeRoute);
