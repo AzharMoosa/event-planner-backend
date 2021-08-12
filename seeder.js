@@ -42,6 +42,29 @@ const importData = async () => {
   }
 };
 
+const importPlaces = async () => {
+  try {
+    await Place.deleteMany();
+
+    const users = await User.find({ isAdmin: true });
+    const adminUser = users[0]._id;
+
+    const samplePlaces = places.map((place) => {
+      return {
+        ...place,
+        user: adminUser,
+      };
+    });
+    await Place.insertMany(samplePlaces);
+    console.log("Places Imported".cyan);
+
+    process.exit();
+  } catch (error) {
+    console.error(`${error}`.red.inverse);
+    process.exit(1);
+  }
+};
+
 const destroyData = async () => {
   try {
     await User.deleteMany();
@@ -58,6 +81,8 @@ const destroyData = async () => {
 
 if (process.argv[2] === "-d") {
   destroyData();
+} else if (process.argv[2] === "-p") {
+  importPlaces();
 } else {
   importData();
 }

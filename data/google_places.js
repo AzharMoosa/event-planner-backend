@@ -10,7 +10,7 @@ const API_KEY = process.env.GOOGLE_PLACES_API;
 
 async function fetchByType(type) {
   let pageToken = "";
-  const radius = 3000;
+  const radius = 50000;
   let URL = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=51.507351,-0.127758&radius=${radius}&types=${type}&key=${API_KEY}&pagetoken=`;
   let results = [];
   for (let i = 0; i < 5; i++) {
@@ -41,6 +41,9 @@ async function fetchPlaces() {
       "night_club",
       "shopping_mall",
       "tourist_attraction",
+      "museum",
+      "stadium",
+      "zoo",
     ];
 
     for (let i = 0; i < types.length; i++) {
@@ -48,6 +51,9 @@ async function fetchPlaces() {
       results = [...results, ...places];
     }
 
+    results = Array.from(new Set(results.map((a) => a.name))).map((name) => {
+      return results.find((a) => a.name === name);
+    });
     return results;
   } catch (err) {
     console.error(err);
@@ -61,6 +67,9 @@ async function writeToFile(results) {
   for (let i = 0; i < results.length; i++) {
     const place = results[i];
     const placeID = place.place_id;
+    if (place.photos == null) {
+      continue;
+    }
     const width = place.photos[0].width;
     const ref = place.photos[0].photo_reference;
     const imageURL = `https://maps.googleapis.com/maps/api/place/photo?maxwidth=${width}&photoreference=${ref}&key=${API_KEY}`;

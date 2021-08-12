@@ -2,7 +2,7 @@ const places = [
   {
     name: "The Clermont, Charing Cross",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1666&photoreference=Aap_uECdK0HqHHwcv1ziLqH8OHOHZbsYg6usJTNEPetrGtxH0OaatdS-A1_N0Q_JV0RYsH6tINBZPvABvtMedYQjsB8hon3kCdyrZEWAkya5HW1yDddMXi9QAfdjYVl1z2yGC81gz92hNTUmsLxEq7oG11xTQTLp7DQxLoSh4isaRQEQPahU&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1666&photoreference=Aap_uECtIvqgL59cSk1gUH-rjVFQZFGbQAFfp1ga60k0BvsgEQk4zkfpHlGtj6VAdW-Ys7EE-1dRy1t8fOcKXU5r-Nf9gjVJ36f130P2d-SXNklLvCVvauQPkwG9-mZcP378bglDkYe_rtRGhafPTQFnqZBKayJbbUj8F5c624uiFDN9rBEl&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Strand",
       postalCode: "WC2N 5HX",
@@ -23,7 +23,7 @@ const places = [
   {
     name: "Premier Inn London Leicester Square hotel",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4288&photoreference=Aap_uEAICAvU_jWQDFseus6fbbZejJtfatwVxMCWLZ22m7mdLiynnNHQjtDczgJE_1viQP29RUgSfzqVUdu_Kg85qcw2hlKPNVztxov2QsUfhz7_WYF7cwRloMpbFo05TIgJSNamijAWgieWjkU5Q3zydi1e1AwfmLCqWEPST3oBmsGw7wha&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4288&photoreference=Aap_uEDEJ3VHvcAC2vXVZp6Kg9uxZ-ZBaBJrb7GjXJPBA_AQQXgi_6ZZS9Y3nPdmndNrWX3PXZedlM7fEZbhB6WzRaag6wWfoAqpYM581DotieIVNkK9lyNCmpTefhsu_XoWMAd0Pvbg2gQQP6fw1UCHfmlhQzT2EmpeXruVDZR_F1tI1Gam&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Queens House, 1 Leicester Square",
       postalCode: "WC2H 7BP",
@@ -43,7 +43,7 @@ const places = [
   {
     name: "Covent Garden Hotel",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=8688&photoreference=Aap_uEALollbBME4AVhXfVcpD_fpALfgoAiwADsKWY865ry4FE48t147nin-4IYQeP1CLmrVOpuOG21mwWwOs43y7a3Q-DraJpEFJaO_1J7dqiqIovpVQheO59NAtUiKL_uZb994SE39w6sxgTYYENZmwW-CVcgVKg3NGOM10qB5ffsT4b88&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=8688&photoreference=Aap_uEDLJk4zo1A43gaMpq1wccIK8XdXepr9VFPgyQBkWRvPNFVg8m6BkOS9tTwVwxKd2verR8kCTtlPDLHNsOFgWOG_yKiMIkYuQORnr_xyHnhiWeRB2_3nzuqFCWxbDooZaSzZlGiYbSZhTTHDKEA5YBSOkBzVlLzAGI4wW8NkiPuNStqE&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "10 Monmouth St",
       postalCode: "WC2H 9HB",
@@ -61,9 +61,9 @@ const places = [
     info: "https://www.firmdalehotels.com/",
   },
   {
-    name: "Premier Inn London County Hall hotel",
+    name: "Premier Inn London County Hall Hotel",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1500&photoreference=Aap_uEByDaMVCyFavCm0EIRawba7YHuDURnw8OwEubtAa1j5pLV1ucxO-IifRkCzYNJsEAKd7tSaliXxTSLk2pOlp1U6emJjshy4YUsebsFixmOeechEiSFWxFR5JWLrFil3yKvlT0EfEW5HVi0KTqZmQtyByIo1UW-lsHZHcS61rnRWjSNU&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1500&photoreference=Aap_uEAh3mqswLnGaDneLx_1EsYJt_6B2n6IjKuFrtx1oVtfFRm-i0W3m5FrPi3DlD2SJo3ufLUZMbsYTvb6cz-kxHhg2Ib6yL7nFAADNYb6y_6byFcOnVNgx2uNUHQVKHCNwrJKniL1HUqjleUzYSx9dw8qagWCwftQkSDEopUY_cTe9gHz&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "County Hall, Belvedere Rd",
       postalCode: "SE1 7PB",
@@ -83,7 +83,7 @@ const places = [
   {
     name: "Charlotte Street Hotel",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2001&photoreference=Aap_uEDA6xbqPLKeK2dl8bd-vOSGFsjL_tYdTlwDVKkVvSe5G6lYDQaqK7ZFiWHTrA9wN_gwRCf27-lCqtL3qyUj2uQUKJz7zF2o88cUsyXhqTVuQCjq76M8HdU9DDNHq5lFVqGMtHdZei33OW668fS8QvGafpO_jcErY2b1_cn9LrIBmn6o&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2001&photoreference=Aap_uEDrgr55OBMx01Gs3PrliiA-hL0FecEDYo8iZVmPHIfaAa9EIfZfV4Ww-_GtHfJnqmYSwMEFTNhyIcqR6uBuR0rUEc0ua5efDWUDCzSiP7i79TmfCwWOM3p6bbOecwu33yZLnuX3QVgkKXNJPV0JDd8wtHSEVJwj7pMWot6u_Kb0OjWj&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "15-17 Charlotte St",
       postalCode: "W1T 1RJ",
@@ -104,7 +104,7 @@ const places = [
   {
     name: "The Athenaeum Hotel & Residences",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5000&photoreference=Aap_uECBxt7cPALxNPyxMWXTJl5qXMNWO-2BZBxScOshLw_88ENekCDmpcVxwzItnTbmKyrt3vLDZCJVbcWosyLtIRZil9Q2txFxjQmGy1UmtC2SAK53scl-bt0BALCkJCaDH7xYTk9s5ms-o2yAiYgeu_mpD4APp9VIrBC53U3lU5Go6qlV&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5000&photoreference=Aap_uEDIFAtFx9qkm6-Lf0TSCO6ioibgOSIRSTuXgAh-FnCplk5aJsknYMH6RQxpS0zA-2wWCP8E2PUsXpaLeVt-7EiEz05iaS9OmvvkTMO7NCxq_T87XelLgqlrno2C7UI89JKAjGe9THTVLmZEYAK70Y9Cfey_T4t9td17qowUEfRL_1AG&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "116 Piccadilly",
       postalCode: "W1J 7BJ",
@@ -126,7 +126,7 @@ const places = [
   {
     name: "NYX Hotel London Holborn by Leonardo Hotels",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3877&photoreference=Aap_uEBm8Xcpd3ha854y_bVkWkNMnPGo87TTW7jxx0xInMow1RlpqY19rxwsmztxYGc1mOY8ZiVdpBtV_TdLvzB-2YbWbpo1c2InLhbtL-Flmc66bjOsEkX1C7Av6NLRaWBO99dBjxtwO3g9fNrT1VjElQpQlLh0hz3b7ewZ007BwJCoyVYE&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3877&photoreference=Aap_uEDKqtswo9BvWYlHEyhVibI1itQIIIQ-O2b3Slhbjmj_zlQ6EXBzMcdRX0ZgBcQW0Q5F_ln6Ncq82C1uAeyIm2Uk5EVBM28jlzwEYyKxtvv-lBQOscVSQXx3cDxHS8iuDhQfQC49d_yskDIji5Wbb8CgxQeFWuhW9B9Pj3SiBOI_zh80&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "50 - 60 Southampton Row",
       postalCode: "WC1B 4AR",
@@ -147,7 +147,7 @@ const places = [
   {
     name: "Hotel Novotel London Waterloo",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1024&photoreference=Aap_uEC7IYtcsCfb9AMN-sYawljdtfos0kHjsZxigEa2LLEDYGlpY5xxdz4yhw00iSIdXH5xVgC9GGHRgaz4Q3AT9rWmsU7CPv223fOIewrHn8V0z9nwcVqe5z2BhUxrSgIQA3-OxgdwAP46zC00iP36AeK6R11f5hz_tvxLgRsb7bBDXUPC&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1024&photoreference=Aap_uEAWuth2Gzr1mvrUGOZOy3I8SBiFlzHX5e2UUwXSwTPyX0KlD6kSiS1kPS8l0DOyPqP0IsU17gJvVIkRqKJQaKGxK8F7NftNmZ13KoOl2vmD3DJi4tXUpupcdhWBWZ7ixrHxICxwUHqOShkvlu4gtiRrRUU0-wECfiSGN8_ZG9C97U9k&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "113 Lambeth Rd",
       postalCode: "SE1 7LS",
@@ -167,7 +167,7 @@ const places = [
   {
     name: "London Hilton on Park Lane",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4102&photoreference=Aap_uECvsIj1_ZGGOkLNRGC_wt5JKxMiuQzD333gggxE4FgpKf-uPxxIJwl8Gzdlkb5YxVk3a9yBaVffvuqpbIhRf1FC7jpeXtINUBYsA3jItNV9ORZpHW5Uq39h_LMrmWcksj9tbioVpDwCo66toI4kJxM2NQTIe_krxrBxEWskYufFfmp7&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4102&photoreference=Aap_uEAbq7rf6uRecN-91ub5BigPQ15Y3Dx-1qoU_ugJOw64M7nAxcnWASDreQ9_tShyRgIlgRl4GxgzafX-v8-OMBnsCYPOUHL5jpTqh7Nd_Z5we0PVsECyLdVRLAmKwc4KPFy7I23k6Y_mreJnhnRu1LNzEXZAE8aSsnDg4c0FNySdUwo3&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "22 Park Ln",
       postalCode: "W1K 1BE",
@@ -188,7 +188,7 @@ const places = [
   {
     name: "Premier Inn London Blackfriars (Fleet Street) hotel",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4288&photoreference=Aap_uEBgEo3Glg9V025eZMVOZcddGVcuJhmSnVThndq7vlXW4JTkLNbDTdpW1898i-fqNaIfkdR0rPimEbeRQUmTaHMVVSSHp2WM7q0Gwcbm4r6XZWPgCuBDx5x0RdR4cK8hsx3UjAuEwFfKYWTqbdHpPCfIrKnR31aqlKvhWYhxJfxDfP1q&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4288&photoreference=Aap_uECMmI5XQl8uzGmVwbcUhdBooQG1P9vOLlhxNUEkDp7Y6dVUIJnE4UJGJ0Ri8FGApRZMKKPZwmYKRUoPCl-j5nylqhrWX_2pRk04pYQjcfT5ckgAAPZ5Fk2KK1_WNqqW_vYBX0Vfg8OPqF_mjxvKtsI4W3S6wr5pEvdo8oSCpGAV2XXO&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "1-2 Dorset Rise",
       postalCode: "EC4Y 8EN",
@@ -208,7 +208,7 @@ const places = [
   {
     name: "The Clermont, Victoria",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=12000&photoreference=Aap_uEBHpeYiEtDwWyWW_obVeXJfWB2hJyi4AtTaFBIxVrpMLXJVhHEuyD_1ZL9INcVWEVe2hNc3DkwgO0EDBC2UQPP_VHbo4sRozNFoOWfEDktcsTFy192_SfZXOFDvN7par7xAL3Ot-E5B6Wm-naYmR4LRaZub2u8Xz5MYmQ8Jvt6hKQKi&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=12000&photoreference=Aap_uEBqZFqVw3Ddw8nYDQ8yX9xdhE829dkpCPXqa4ihfiT0oER4UpO1-Khh_LskSIvLzPnEH1VrlfHsVcH01Z4GsINv30KqyGdnyfKW2yRg78Svvs0ZsB-pvaHDQfl_6zKdLTfUQC0dlQLgBzCv4HVNqLkDQUb6ATIs8-oy8bGHcctIvA2X&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "101 Buckingham Palace Rd",
       postalCode: "SW1W 0SJ",
@@ -229,7 +229,7 @@ const places = [
   {
     name: "Premier Inn London Waterloo (Westminster Bridge) hotel",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5263&photoreference=Aap_uECtDQmNrYyY6F9ITlV7Ibc3owXlTP65xjPinEVoffwX580fVHRwlxFu1PnEhYSD0akDIuhABaFcrunK08HuNaAXHGoy1XDHmCg4dc6m4sNKPaboMwvtQOFrEJqaPmCyQ0uipPbgXeXE_TliLUIrABZyTpN2M6a-g34_xcZ9BDrwAxt8&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5263&photoreference=Aap_uEBzSPO1LsKUd85mCVoxWeiPhKnOuV89Blhu74AcZCkkrDLj76p4SW6VkNAhQIHuogAd6JKiFQkqz0dQ9wTgcxMPFlkcmnl3ge6MIfDXGFMm1aITR-C0e3za_VlKlPFKZveMBKllYyQJbs4NhxbMUHnMdBUP789kjSw-DZMsH9d007GV&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "85 York Rd",
       postalCode: "SE1 7NJ",
@@ -249,7 +249,7 @@ const places = [
   {
     name: "Holiday Inn London - Bloomsbury, an IHG Hotel",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uECw_0czcPnzELYg8YOqsYXfBRTLoFBRTsuykTcOhO7XywFqymdeATE6AATZ9XDj611gB1jQsNJuumKZPQWniylJq-hkm6K0Wjw7dAJKS31op67ER7ZMoZXB_ssnthWENMrKfMPWSMynLMfxL3r7oipD3CwpAMbegW6NpMEf6C8BG8Ts&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uEAyfYNK5aWkj1E6_1trl7rq-OOv2ape7O7yE-pbUhLhPwiJRxOoXSWsPP7A1HM0GxewDtBBO_JRZYx8ivE-e2rEe1I--0sX5U1wfl4-xN8jxByqF_WhC8whBxhWODyYsJo-KVZe220kGF94TZ-5qKGo2JLjcq8U4kcaiDb1dBb3V4v_&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Coram St",
       postalCode: "WC1N 1HT",
@@ -270,7 +270,7 @@ const places = [
   {
     name: "Premier Inn London Victoria hotel",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=Aap_uEDDmG9bFZeFpKJNqPhMcbSpCmql2hdEFNtdN4qJUTjRULEtePAAvNg6JDax2sfaH9nNPTRzMHXxY8MLto0cNKJCndqhcM--Al7NE1dPmtSs3Gs74pKNjvwRg55TYw7KTQkxDjDNvFSdWt9z1MjNFhr7JcYKD6bF8rehAfMShG31gvhm&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=Aap_uEBctyl59s_wd3YIkpTRly0K53fjKeIklllvo-ca6Rsyyqary2O8A5ys48kO3g_qghZE1RmBNFlB8vAjz4IcvLioQ5J_HFno7qoF3132sNX7jNBsYDvwCki4K9Me-ci0WIk7FzTld7-Vi-PCAh31_e5BZcFnslxA0l54FIDflLAHekV9&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Off 55, Eccleston Square, 55 Gillingham St, Pimlico",
       postalCode: "SW1V 1PS",
@@ -290,7 +290,7 @@ const places = [
   {
     name: "St. James's Hotel and Club - Mayfair London",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3991&photoreference=Aap_uEDuFg3JI8UYPzVDWDep8NkSElfhI7zwlci5VX69jsIhQ2Ell01klOnhRXtI4TQkuQTFxldGUz8HAikh1YRdCG7n8KI7OThBRlooLGXjNa7O2OsxZ6Taulzi4dTrk_g2vBgTloECW105_QDcnJ-Euzn4kf2epJRLZffCnoGguxD3lX6a&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3991&photoreference=Aap_uECEZcbmM8hNeJxdsjInAK-hs5o2y95cG44fPyTNBA3vyzlC-7pOSMNSp2PTqhzT3Ohph15iQVCd2HNXFpRsrF7EC8IHdblPM9YmZo60Mjp6KyE-FvTQXcY6qhiz1wwu-7V4fwA2pZm4edcUQI6wsKOKxd4MyFIj6cy5NEpkMeINhtHF&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "7-8 Park Pl, St. James's",
       postalCode: "SW1A 1LS",
@@ -310,7 +310,7 @@ const places = [
   {
     name: "Hotel Sofitel London St James",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=6000&photoreference=Aap_uECt_BpLyykzNPHaPPPZwDUmoHhyUVuQe1Br7n-XGAtvNSAqdt-ZGkSG1jcH5Tvnc3pwqvfu9gkwsBSLkTAvufMfFjWEBHSL08uuzulC1aP-Se0lOVtfBLoByr6oUVTsHILmPZx_LEiSjf7zFOWcwVRIbVF9X0hCbUqdtmCDEKyGE9pm&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=6000&photoreference=Aap_uEApho-ptleSvWTwegRcIzquykF4dd4BMNTjybUGp8I1JFQsaZPnl24RVJvHSXMRiNXukAmtPN0xlmuCHQXJAnWm9UeAykGi1UdC7zqX6bv0vAX4DjHiPHrNskiYRQIQ0XzGb0f1LSpqoYGKf-vNWuBuUpNA2ZJcc6syO2kCI172_xcY&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "6 Waterloo Pl, St. James's",
       postalCode: "SW1Y 4AN",
@@ -330,7 +330,7 @@ const places = [
   {
     name: "Dean Street Townhouse",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3000&photoreference=Aap_uEA3Q-dNjYUUHW4seb4KBOQY7KYxf6JbhDml8BAk8jqYZtccZl1R4DAvcKD_ATSGJfZiaerua_RNB9EHcneMQ4amc1s96P6GX8W_qZtFsvhQoiH1jLQpDBMktcgpvJUXZ-069oNBjMxXUcbpSIglS0btHibjfRmfNBafbin9UKzjsrWf&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3000&photoreference=Aap_uEBWoMLdtmSFoFsZmfAU3H8I8Kpibbhs3CN0507W5j_IPi3iY1Llq1eylSPr8oxH9eQ2jhXSidHH8UbVhLczK1PV3jY_yWHfawim8rqBNtQiPhFYaebJZAtjCXHKae22Us3AOEmhsmYUvdXFRmX73NqO_KUaKWQNMKoqGfRxKBxJ0ht7&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "69-71 Dean St",
       postalCode: "W1D 3SE",
@@ -344,7 +344,7 @@ const places = [
   {
     name: "Karma Sanctum Soho London",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=692&photoreference=Aap_uEDq1rBDwSG3RUNlVHimPRhhKyq8ZNJ-4qf8BCqvt0kjpfdTHwYgGsUPv0p2AOOdCjZc2Jr5vyy8J1asKOr9jednMUvnAquHfq3SDLXxtf6rMWubvieqO-_ki6eOFX9GgHYPzsRhw61ygff_HrxwvH4Efi-tpLPpdA4zVhOksDfz6tg9&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=692&photoreference=Aap_uEBdg9H6HgxsEqcA2DGi5Jo0wNVSXF5sBzMC0ZsjgKmJ73bZHRjIBoOPyWD8K8rPi-CXSsMsR6MI5T5fzTvtE_F5QIWpVN3N9zjlbY0l8HhtKy3qgUGYPi2iDkgqhSUy8dvcS122fLpu246rtsGNhnP61j2xnD-fWDGqO4mxodLUHVgx&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "20 Warwick St",
       postalCode: "W1B 5NF",
@@ -365,7 +365,7 @@ const places = [
   {
     name: "The Mad Hatter Hotel, Southwark",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1500&photoreference=Aap_uEBGK98v4aM59cPVTCfSMj3HPzVe5-tAxZYsJuxcebm8hxCs_75otuXrSIhqCWi6I8sF1XlZ0GabsYWS4Q_c-DJRXi7V1TpzRVeuhlfK5oLuGSyB-vWT5SASLW5AmOMCtycgYOdKKk28Onvv33m7IBZnJ-rYAk1-dDKypAi9l9b_7bds&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1500&photoreference=Aap_uECH4p_3ite_FGKdojzQJD3YPPZTKq3H7Qn9aC-7FjT9zKyVgr2c6kC4PL4SNEvM8jANuTofhpaXQYr9ahcjp9EezhAuuWC4jk2UtMmNhdOJaRFauS7kJkSBDptuFbhFdbXbyvopKFBUet3ZxATJIKZjExnpCkdtPSq7rMq8I4XorN0u&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "3-7 Stamford St",
       postalCode: "SE1 9NY",
@@ -386,7 +386,7 @@ const places = [
   {
     name: "Holiday Inn London - Regent's Park, an IHG Hotel",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=640&photoreference=Aap_uECtAl6EE-cSJjahIudSSUhmgIaUEaHzkgG7cCyEiKDOo1htyX1wD1k43uSImPDcy4s22S0Z3_kSHOA05bGMacgfFvUiQXACsHLHFoYtW0Q8uBCSv8FV8-bTx7AiYy-yk5Wy3Owuu0Dw4Td2x_CzzZ0cLIrjzoOjHTPoSQ5S57tGEq8_&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=640&photoreference=Aap_uEDhxvzcGGkj6RmnAqd2CCv4A4nqHqa0rvReHnwDdi-jCup_B5x1HKYTyCmeUu8OjjKwdkv3LnnkSI7HJUzntITxOKnb_IsTlREknpB6Twl3JXtHOobcGVX1aEy35LdFXetX9gKe3aTxo5sgMwBtyGuZ1lAYvCZw8PHLeZpqRRQfla-o&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Carburton St",
       postalCode: "W1W 5EE",
@@ -407,7 +407,7 @@ const places = [
   {
     name: "All Star Lanes Holborn",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uEBs67iHGNRPtxCLwYRHfm7zu0auMnfss6NmB0R8Nz93ZTPy_d4ACvdGAEZFfbUxHvMVOW9NBu9JdACnaqwxq2_7nADLSQb1uPAueSias_TSmG_D7ENiZpTpBAjv3RSCqACQiL-dJiYn1SMnhU5sF1gEPiCiUNjTblv2Y60zTFUhVZeX&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uEDcts3-87j0hy2ONrrME4IMbMaXxs76laV-vcwebqT6Db9tOFfvd3w45Jy9E_0UpyqxByUp1ETOAVUEY6RT75HRKhUrONa4GGt5P757lRkrznyL-a6zvqvv76p6HEuxdz1cnEsY3LHoQxg1SDyu4_OoSK0VxKErmRw-ZVkqGcBs9hMj&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Victoria House, Bloomsbury Pl",
       postalCode: "WC1B 4DA",
@@ -428,7 +428,7 @@ const places = [
   {
     name: "Bloomsbury Lanes",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4272&photoreference=Aap_uECHqxIOWo1Hp57B_Wf4NICpBWw-ffyW5eC8jCUcgVBG89Kkc3mpNJalAfz-xLlIVGPKmxFQq4pHTv9JWfy2LDWxon5Rj3vDC-ytieSsekcVV6iurGTf27qjqICvN4oIPOa8uiVWJ8-2tw5R-XSi9gV_DnLHKzLNQnOKwACF5rnU3-4X&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4272&photoreference=Aap_uEDxmedOx_jGik9IDJuhH-wHCdLyHITYyDVZd0_I0drL5mzkcChGa3UI3f6enUWWRv_Xk5kBpD1VM5nN8pYU_QVSWflm5djAGXTcAye6DNWdBvN3K6i_bvhJv2eJBjsYg3OAiCX8BBH13ysScYWHnW-S36WiiYG0q4YzAToSrcW0MqMf&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Tavistock Hotel, Bedford Way",
       postalCode: "WC1H 9EU",
@@ -448,7 +448,7 @@ const places = [
   {
     name: "Namco Funscape",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=560&photoreference=Aap_uEARD__WQ1eyPTP8VXrKKjDHIhEf41Ao6jaTj8yBeN8tjSLPKwM2p_qRYtx32Hv740wvBaf0adfJX6prkuQYnMSI0kZPjTWzNSkqhYW_2vKzz82uFQTroLczct5DFySANSte5impmzDvuYAW-xKku3aH7YD0XC-WcQKpWVKHdaieml-U&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=560&photoreference=Aap_uEAKI-DOU8zqinHYKO5eZ_1wK3VMzlVfppBhLqiAtiNwaevloQ033jnruEQmX14NOK7eTB4s8Nd0yExbI5S8NWFk6aYT_lB1sLVrwj9fuE54588xZ3SdHltj1ywVV9K61blj6duJcs8jtd1Qk6Yu6zk3Hm779WYue2hDyAAeqoAuV6s3&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "County Hall Westminster Bridge Road, Riverside Buildings",
       postalCode: "SE1 7PB",
@@ -472,7 +472,7 @@ const places = [
   {
     name: "Kingpin Suite",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4928&photoreference=Aap_uEAmeM6Syooeq0bmcqv7bc8DknMnpIlQdNnVPV_igLPJ5Oy4szq2tXIsw4e3UBHrfaETOAswjnXICLq6poHZzej53xI3p6n3IJ0j-s_6-kANibz5OTABwLosLgi0eRnn_0OUCIHQSIvNFa-jf4cjZfnmlqktXMKqMFSQAOkXVxpy946u&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4928&photoreference=Aap_uEC6SftPChPen4HBcIQM37rwNaDdxArqsAjWy4HWQCIU-9eVWmmZGjrrqwUxEcCZutICV_nDWaRslRRVdEBvOZ2qRoArO04Dw2Rjx9cqGYDi1HRY3TCTZG5wbytRkU-Aa4F-NSSHBkItOkQSHZddEgtDoAU3SeKS6u1BIhMflj7pEh5p&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "55 Tavistock Square Tavistock, Hotel",
       postalCode: "WC1H 9EU",
@@ -486,7 +486,7 @@ const places = [
   {
     name: "The Croc Bowling Alley",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3264&photoreference=Aap_uEDHqRJfAcTMZhuf1KGXNHrlC6bhvZAlF2dybKgsF_d1_5lTCHs37odPlfFSOsAJe3aatjXqczA6n0JwPwFgoFXeqSip_eDGoOGmtqxhr3v7LOAb5kkFWcE4N5IaMnwvnjvn5eo73KwUQsDh_Td02XaaNIS3uyS2aAGRGqvUi_hwHv6X&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3264&photoreference=Aap_uEDsgJ3mEXup-jyLWcYiN-1pDcq4wyRgmvse4UAPVMQmnjuW4PAacakcWbTfCYyMTjd8BdbqbtoWiO2FCHenahkfMJluDS_QB1YV7XpjYPvdDDb_mRx02cuC2WgZHYc6sGd0lD8kOjB8sZXXr8qGB47ecgCR5OrGRHWsDMHc_A3woIsV&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "1 Ham Yard",
       postalCode: "W1D 7HY",
@@ -498,30 +498,9 @@ const places = [
     info: "https://www.firmdalehotels.com/hotels/london/ham-yard-hotel/the-croc-bowling-alley/",
   },
   {
-    name: "The Clermont, Charing Cross",
-    image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1666&photoreference=Aap_uEBJiitFj8cYlPXAZwon5JeW4wQWyGqRX52s0y0quBoUhqvV01CBnauWmQbJAtgidX1-EVv51IIAgFWvSPsHNkHzfW3BnfxyqYFr573NeQDpaWv-8P5ojItrYjQR_cANczImcamWoXtBDeDiAX-yKuG_OCW9sx4URV-eZe062OXrKnRn&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
-    location: {
-      address: "Strand",
-      postalCode: "WC2N 5HX",
-      city: "London",
-      country: "UK",
-    },
-    keywords: [
-      "lodging",
-      "bar",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment",
-    ],
-    rating: 4.5,
-    info: "https://www.theclermont.co.uk/charing-cross?utm_source=google&utm_medium=organic&utm_campaign=gmb_website_click",
-  },
-  {
     name: "One Aldwych Hotel",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=707&photoreference=Aap_uEDXJbQGPKXsEFJt_eRr9rNqD-akd4IyNF6rwOh0gwmO0a8R3b4Tnpw4WKOVwHHel731EdyaIdg6zFZ2WGgGhLllqHPR0BX2GAf1Nie4SHGVUoYYOJ7G6N5lKQmo1WoTj87CUnFFw1yNPQHO_L66wlH12p0K6tze7i5aDayyrlg1iOgW&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=707&photoreference=Aap_uEDsnZs-NPGg88qpGuhI8OBmfCFSEx5uJeDHirwMbIsspFnqKaFWOq3UfyUsUvXOcy72dGoG84N5egIm8DK8t3fWYhluHhT7ybXq_VnLAdCLiqa33mGXD6z1HYGpihsl1kKj-l_5ODrwplVZcuWyBm_MqWiyDFHhHNjTJkcGpW3jptyd&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "1 Aldwych",
       postalCode: "WC2B 4BZ",
@@ -543,7 +522,7 @@ const places = [
   {
     name: "Courthouse Hotel",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=990&photoreference=Aap_uEAd-q7oPadtxzxL0Z4PXdMbvrwMUgYnFTIELEl1LQiIzOX4-mhwJFf6b40nN4fTdPlbTtsRI-gqgI_kLGkiZXJgtUTv-SfNL5DNzim4RV1n4d_r4pw0FBP1iT8l49VNbvw-yM6MDr7nASKdcigPzBDg5qMHfWULSkd3l4lFYKtDeUK4&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=990&photoreference=Aap_uEBR2AsRNsi71n6VySVSmLkpmB31GkTFTGIw7D88S907JGwsiQggiqJAzvU5kegCedmNKjhhktyjQWs0WqFcJz6nXB9AS0iZHrCpfnPTLhsuWlHjwlxwYgyyFZwMtKbK4Q8zVuJTKsQmB_I1GSRJ2_yoT-_nR-L0HVAVBL1IX6HGIq1o&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "19 - 21 Great Marlborough St",
       postalCode: "W1F 7HL",
@@ -555,94 +534,9 @@ const places = [
     info: "http://www.courthouse-hotel.com/",
   },
   {
-    name: "Charlotte Street Hotel",
-    image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2001&photoreference=Aap_uECcMu4T_1v5L8OSoCwdk10nDjlYYbpcozulz16q9vpwMkv_-r_licW17RK90BZA1fgF0_WLZZ8aCJaMlqpSX1cDtquaOE60fF_Yseq9NgNjSEq5mA11WabMdkZiA7fhFrfD1nBgixql1wdHyZ1vNyISE18_yJygQhZ_7JzLeg4QjAI4&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
-    location: {
-      address: "15-17 Charlotte St",
-      postalCode: "W1T 1RJ",
-      city: "London",
-      country: "UK",
-    },
-    keywords: [
-      "lodging",
-      "bar",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment",
-    ],
-    rating: 4.4,
-    info: "https://www.firmdalehotels.com/hotels/london/charlotte-street-hotel",
-  },
-  {
-    name: "The Athenaeum Hotel & Residences",
-    image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5000&photoreference=Aap_uEB9FwN9rAltq8CBTuR6ntLkZhyGWVAiSHB0hM-dswPyNi9yju6t0hVcvlG7HPP_noPC5iaKqWG8tkmp_caEUsCAd_WUAZW_JFvXNl8wRA0JExjV2f-Lqxfqg2z83Z_5Legvn17ZAQNaJZ7g33fp8f1gLi6hl5-pGnhq7qMj2JZDjjlV&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
-    location: {
-      address: "116 Piccadilly",
-      postalCode: "W1J 7BJ",
-      city: "London",
-      country: "UK",
-    },
-    keywords: [
-      "spa",
-      "lodging",
-      "bar",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment",
-    ],
-    rating: 4.4,
-    info: "https://www.athenaeumhotel.com/",
-  },
-  {
-    name: "NYX Hotel London Holborn by Leonardo Hotels",
-    image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3877&photoreference=Aap_uEAQ6dmobTk0AsfPTAKTeqX0OnyBUCoXHVXjBAcPS7rUIiABY4UgmAMVRRR2PM0I8fnaY2nHMPK6RT3BnqrsWWulGXTSpEdJ1gd-7WWFD04ieMvcQMYPDutkT_9b_Hip99E8QS05EjoA0SB3Ek8-LFhtffZymCbnTItJOIX8M6Nv5Qeh&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
-    location: {
-      address: "50 - 60 Southampton Row",
-      postalCode: "WC1B 4AR",
-      city: "London",
-      country: "UK",
-    },
-    keywords: [
-      "lodging",
-      "bar",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment",
-    ],
-    rating: 4,
-    info: "https://www.jurysinns.com/hotels/london/nyx-london-holborn/?utm_source=google&utm_medium=local",
-  },
-  {
-    name: "The Clermont, Victoria",
-    image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=12000&photoreference=Aap_uEDkNUNRG5b46vFhXuaEDCDEyL5Vdi1O7nIGfntH_nzeFgD0uGlbMZlFkpzJMrjGmWp19Db6n96bYKBF9-SWbf7KZVheEbvSu-N8SAh5NkdhHkKw7ht3QoD-nrgzdcNJL2Mj2u12JZTwfdSNTH9Y0l986WJ9W8Zg3JlzsifwtphrFUO0&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
-    location: {
-      address: "101 Buckingham Palace Rd",
-      postalCode: "SW1W 0SJ",
-      city: "London",
-      country: "UK",
-    },
-    keywords: [
-      "lodging",
-      "bar",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment",
-    ],
-    rating: 4.2,
-    info: "https://www.theclermont.co.uk/victoria",
-  },
-  {
     name: "Berkshire Lounge Bar",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2050&photoreference=Aap_uEDzpDZf7fZ-lvIYf9CrJyDvhGI6WwIoy4Ixi-K9sGlV8J_nCZvpyFDucmI5fYrEBAxSZFuCnidRjCRtqJ7MBMrCgWTZr0i0w5NKjgSqO-ytCAlOxZDTbBZFK84ji4YSJuiG4ll4DOhpRO0cnwdDw-6RrKara3Zu8IK6b9Fpe22oJ5g-&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2050&photoreference=Aap_uECwA1P-IxaEvVva_2_F5kZGDLg6RllRIoCBtX-tZAY6z9y9u9pOubIAQzpwn2T0nx5A2BHPWR1G4VoCjmF8d_PruyZlLNUlu9hWwU7SVfCjwmEK3Dv8UYMBRqu3sMhF4ZcEha4AgX07U5mNrY_YAIppkF15iEnIpHnNvbyeGS9He4J6&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "350 Oxford St",
       postalCode: "W1C 1BY",
@@ -654,72 +548,9 @@ const places = [
     info: "https://www.radissonhotels.com/en-us/hotels/radisson-blu-edwardian-london-berkshire/restaurant-bar/berkshire-lounge?cid=a:se+b:gmb+c:emea+i:local+e:ehl+d:ujieres+t:fnb+h:GBBERKSH",
   },
   {
-    name: "Holiday Inn London - Bloomsbury, an IHG Hotel",
-    image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uECxFiHkkuR4xlBgDzLZWmuhml2RTrVu0AfF4gvMJOaQf3fwjJruQwboiAz-L-93TyeAXhE8HSADLUGV6ZwB5c0optiZzxa85rwsfZBdeONsHOcs82sXnf9nSor-ObmscmLU9r-cnRlCi-IM2rvYWq6H4slebKQonb87ksnQs2P4ap74&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
-    location: {
-      address: "Coram St",
-      postalCode: "WC1N 1HT",
-      city: "London",
-      country: "UK",
-    },
-    keywords: [
-      "lodging",
-      "bar",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment",
-    ],
-    rating: 4,
-    info: "https://www.ihg.com/holidayinn/hotels/gb/en/london/lonbl/hoteldetail?cm_mmc=GoogleMaps-_-HI-_-GB-_-LONBL",
-  },
-  {
-    name: "Karma Sanctum Soho London",
-    image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=692&photoreference=Aap_uEDzDtz6MUEgW7CoKvRzxptHcWQNGj_3avpOTl1RpRQxuAFr1HSUACmecm8qQweryLtCrbdJAxBkkXCYnPYZY0YKlkTbCxW7QLaUfLrWRWHl0qbNzoMFmDLHnjGrklQwQPab2NKRItqOVVoWA_uFeCTSfdicONxSlnvMxovniwjxA-w6&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
-    location: {
-      address: "20 Warwick St",
-      postalCode: "W1B 5NF",
-      city: "London",
-      country: "UK",
-    },
-    keywords: [
-      "lodging",
-      "bar",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment",
-    ],
-    rating: 4.1,
-    info: "https://sanctumsoho.com/",
-  },
-  {
-    name: "The Mad Hatter Hotel, Southwark",
-    image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1500&photoreference=Aap_uEBgTE9bbdZC8cVCss4ZWjPTI_IWOLV6PHwyEVgQjkZ0qWELMsP0n52ErEMI0EP5sN9RyQCjfPUbz4ZTxUn8ksLHZ5eCCo2WquBHeuV1qRgoaqrhghV5Lzblat9TpTcx6AOCHvj6T5zajEiLLSBS0NYiFb7kVnVPcsmhYZwrzKNyUBSv&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
-    location: {
-      address: "3-7 Stamford St",
-      postalCode: "SE1 9NY",
-      city: "London",
-      country: "UK",
-    },
-    keywords: [
-      "lodging",
-      "bar",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment",
-    ],
-    rating: 4.2,
-    info: "https://www.madhatterhotel.co.uk/?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=yext&utm_content=H002&y_source=1_MTIyMzcxMTgtNzE1LWxvY2F0aW9uLmdvb2dsZV93ZWJzaXRlX292ZXJyaWRl",
-  },
-  {
     name: "Grange White Hall Hotel",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5616&photoreference=Aap_uEA2tEKZdW5NQ_pxa9wWs1BVfuFG3wXp86UFXms-uu5WBDCDyD9dKU0q4kG-3lL6-doe7VZJn6fO6I7DYOZm-49UB18rslAdCvLmp9c5YurcwNBDHrZjzvO0FnXPlCL_o0HaRTKRjE8g2NiEi5SxnwXF1ZTV_KVr75hOgjX6F9ysAp2e&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5616&photoreference=Aap_uEAG7o1bOvDnEZxIhghoEIWy4eVd3qitWowpKuTpPTOlzn3AHk2e1cryZvP96ONsI9i5o5otU9NTWJxXoRtwN4bAovhLXR4CD7jtmR8TCbWA7srivAUJdwIkAqAh3iW-dVZORcL6g08Lsn_HSt7T7OX3pzQbjA9_HTbzP93-JI-IuS7I&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "2-5 Montague St",
       postalCode: "WC1B 5BU",
@@ -731,30 +562,9 @@ const places = [
     info: "http://www.grangehotels.com/hotels-london/grange-white-hall/about-this-hotel/",
   },
   {
-    name: "Holiday Inn London - Regent's Park, an IHG Hotel",
-    image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=640&photoreference=Aap_uECv-crPBxEFAGW4BQenyi7kLnSNP2Vczi6jl9pMpckhzjdJjXOMdhV6aMoS1vz0G86s6Dbb_T5gf-WJtFSj_7QSfk65gBTYgFkJNHCSFDmRr2Gc11S_ADt4lTFmpqAHFq-Kmy1ZonN-32T2h_yJKasT6LfgWrW2MM3RZWNtO6iYWXJl&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
-    location: {
-      address: "Carburton St",
-      postalCode: "W1W 5EE",
-      city: "London",
-      country: "UK",
-    },
-    keywords: [
-      "lodging",
-      "bar",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment",
-    ],
-    rating: 4.1,
-    info: "https://www.ihg.com/holidayinn/hotels/gb/en/london/lonrp/hoteldetail?cm_mmc=GoogleMaps-_-HI-_-GB-_-LONRP",
-  },
-  {
     name: "The Wellington Hotel, Waterloo",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1920&photoreference=Aap_uED-azwL-yyMHD5ZdNS3Cit5MLhgkTcgA05rYmUsuYBK2rBLt6Ue6if_PovGOfO04AZgbSDlAvCy2aAYP2k5DwN1q_6tKv6z4h-rk_cNWLphRJ14XhW0ROslMfVOsyj2UjQlSaTb0TCnOIiO_x-cAWh3m7hIoQxKDu7uLbQkPnKSBHQE&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1920&photoreference=Aap_uECcjSLIUBpPMhHciQRp5y1S3kL2QXtqA6vSYg4FOIn5bcuqAL-D9K5HGCx79VgkHZxAvmbrBy-c187QkRWlDp_8g8LdnMpdYianhm7bAgvwvsheiS8fU-IOFJuh7brvqBuSiFCly-A9VP6qt94UFeksuJR4m_gkn0igjyN-lFyrXr0g&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "81-83 Waterloo Rd",
       postalCode: "SE1 8UD",
@@ -775,7 +585,7 @@ const places = [
   {
     name: "The Z Hotel Victoria",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4288&photoreference=Aap_uEAgBl-gr8ea9-o8kjg7GnScFLr2eZakVk2ht8JTGDR7SMLeEg0HOAQcsRii07U_GRoLmKGpFYNooPB6RvyS-nR66cmR8cwTk_9fiEPSWBo_rI6P80q9OQNJvu1yC5vlrZhoQj6af6V9tpMXiGfb94xsu3FQiov-pPE0xAVitEckjZEr&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4288&photoreference=Aap_uEC8kgF9TcSrXqbvzwLiuc4IejxqvdS0TsSagfH1fMBbok9exZWru0FSgg5Z40aMGdNuXl5sOrfnLDg4RaFkd8mHOEMZtR1uBkMWZL-MEPDKrTDa_y1afzyHhBuFNiUYSmvsq4Dkhr0tZNQJfbajHBw6unuqubdZkRm1msWgl616b86j&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "5 Lower Belgrave St",
       postalCode: "SW1W 0NR",
@@ -789,7 +599,7 @@ const places = [
   {
     name: "The Grand at Trafalgar Square",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1698&photoreference=Aap_uEA1BzCCnMJTl-7O8k8_CnFAQgGbklSOVgZcecmeSL15y5PGjB5pNUI2_caYz1WQahHLpCnMoRTVZ2O55En3pP1tflvrrHXUKAmr2Hqbl3VtoNTncD3boiz0U2FuH-5BL8t2_dkBQHcRI-kDcKV9Ahvb5750i-2oDwbXv2gxkRFx9KOF&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1698&photoreference=Aap_uEBA57PQssl9n4z3IBt-_t9ggX7Fq_Le7ttHI2oATHZ5hQRssv1-kMPURCYctmQ6bW4TARWntRyDbUANzB_RVfXGbUwX4_UK4xs7ZubioEUyuan_cFFuhi-4oFTYuxAjqCOcJcsZmXsLeG2-zwXRfIXv5eRz3mOcqoc5uol_g1wkkaCu&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "8 Northumberland Ave",
       postalCode: "WC2N 5BY",
@@ -803,7 +613,7 @@ const places = [
   {
     name: "The Rubens at the Palace",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1080&photoreference=Aap_uEBAIf7Q5anGC_a9EViUGh2i7PhAgSTRl5fm-W-aKeo7vZTDND3_9jLwctEyKuEQK-XapcMsk57VdENMp0toIswpv96IXzOY-tSyegPxooZfKAAWhx3llC4aAGJOTBXw8qGgO6hmGnkUPLSbdrmOtbAi_6Ii3UllCXlIVVmfrUHhbV-G&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1080&photoreference=Aap_uEC53OvRwhfcFI0kTbrmA900oaqWI-teBpWTvejYNroaTQb90spt0JCrJPcVRTk7AXtaO-llZbXhVkQXD77mxNvNovCuSxxygOartdwbQxQcByTb0a4QckgdfZpKR7PkI1p6s_pbDjvTuHQumkBbj4kRTkGpjg_1LdRIMsUQfrrb_o1A&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "39 Buckingham Palace Rd",
       postalCode: "SW1W 0PS",
@@ -825,7 +635,7 @@ const places = [
   {
     name: "The Steam Engine, Waterloo (PUBLOVE)",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uEAdCr5unNI2932ocpzmOlkc3YS_lgONj01mBhgHhukkdhrbXe6Kxow_8cUVXftOMXY0J1t661nan1VI0GjvJS-0qTo_XFp86xxDoNBoEXhQ17Kbv-XCpQX3T-Crb1Ex8ZHREdXK9TDwQbyRIKOjxvCP510VRPwrlwS4bM4j06RCW7wE&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uEA0VCU57REMHBg7U1acC-9DyHX06vJfX0AApsr42z-b-K3t9TYerhij9md0CQhQq8jiLpUZsuLSAnWit7qLPtM8J06JSZGnSzbeqNYCjtsM6sYcvyz6aw7dBiSmmKH2_2B51JjvHQEUxvhIzJmoRTsxNBSev4figvXC8smSPS9i6nrG&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "41- 42 Cosser St",
       postalCode: "SE1 7BU",
@@ -839,7 +649,7 @@ const places = [
   {
     name: "Park Plaza London Riverbank",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1136&photoreference=Aap_uEDBeHLFhK3Nxp06nZijkArrNSiD_eAajPj0BbMayED-RnpeAgX-0tT_OV-_R92Lz5ljqHPnBNCPpmkUcAasPc2-r18iMwdc1-7Rx8VB0Vjh3GgVUX0wWHiwIIxooSrvwDs1_k0FB01of5H1rpGYwc8_5YhTuAfgj5VZlY6n7BmJmA0J&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1136&photoreference=Aap_uECYhgzzVTXJMIGVy4GDDh7LgWnGsVa7xf8Ne6XXnSPTG9GQw1N9BSLitfri76SOwigcWtEJUUBR_FloitHkdpuoCZxYR5nUqhplVKI00QM6OWI50jHQRzhihra7cRCPoO2yCusaf7EGgtl2z1Rr2hzMm3snB2vhMoCMvZg8Qah_ZuU1&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "18 Albert Embankment",
       postalCode: "SE1 7TJ",
@@ -863,7 +673,7 @@ const places = [
   {
     name: "Langham Court Hotel - Gem Hotels",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=828&photoreference=Aap_uECqRM5jdwnl7moprWUg6Dr89ZGD0_jTsTruDzdaMG7u_3ly0paEmu78zdWtEQ4jn4nE6AxcNuFEVEswL1t22ktXyLaAkJMKK0dN2aZJ-yjajgpmwrOknpTM0bnUEux_p0DOA0PtK5o_D0PtMwm0jy2cwE5pgt1V_hvklbZ25v1jjvD7&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=828&photoreference=Aap_uEBYA3tDFOm0Bwfv5t6PRf1UTSA_gE-KKdYH2pn1dnNJ7Y7lJimUmwlWSGp-JxuWw-F0vs5doaX2I6a-Rxp4gRVhYSuEvThv0eAZwRZMcVjBQChFD-tUG2-l4tR7kCHWQCWdjdBWsUeLU_RYBxfbZvlhCcWlzWJK4W2LC5Hnl-au_KGI&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "31-35 Langham St",
       postalCode: "W1W 6BU",
@@ -884,7 +694,7 @@ const places = [
   {
     name: "Howard Griffin Gallery",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1198&photoreference=Aap_uEA6brp0rlixp966sRmIihOdTXPWH7_CWqlgmMq2rVBPa6rvjBohoVhxGjSqy8eqAN7d45Nk5mbmMSOTbCCtBKpRdevY58fAQsfU1Q37siLj2ywHR8-kTsvMlpGb0GaVW0daX2BmgE2MGByfJ519yRSS_8x_Yw6_71G1war-GmYumGg4&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1198&photoreference=Aap_uEAoULOMNZZtEg4RedOpm5V4mds-VdL5cDzyM9ceqvLnfPw_-eMJPpwY93rOk9ubrIiEYj7YcJoHasRJr9tg2359E1rqsvNLvp0PPkskZNm26eswlE7aeHDtPGL18fDeNzhDZWs7uADkPCxFWw6ulCTw9ZeF5BX__k17W18IrzfCv5_N&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Mayfair",
       postalCode: "W1K 3QD",
@@ -898,7 +708,7 @@ const places = [
   {
     name: "The National Gallery",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4032&photoreference=Aap_uECVBUDs9Izca6h5ZvYl9NqAyruwJ0p1s2qkjkhlxIe9yQieyg0OdYLUbWKCZSJp2z2_c8jKvqMGYszddGwFtxoJQdvmbUZFg_73gm-ZeueUwdc1M6XTtHfAxf4-OvqmyEdmT0DtPTQSDTPycgp_H1bV9PTg6BT1QgfJPNjovjQ1g5mW&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4032&photoreference=Aap_uEDVWS7EDZFcXExM_Hx_AtBTbOjX0u-s6Hf3vkP2wMdTycP2CB3zSxmVf-778X4PR_nobNqaoc-urH_YA3UCxCwDU6YlEGf5p1ICmkjcGGyuOi4peJwh0DwP2ycLqc_mcahASG8hUQbR0aRU5vcTIWxHztPWr0vKXRzr1edb9ObEKaDl&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Trafalgar Square",
       postalCode: "WC2N 5DN",
@@ -918,7 +728,7 @@ const places = [
   {
     name: "Institute of Contemporary Arts",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4640&photoreference=Aap_uEAmlRQCJeyeY3WLWg-kGlRWqLvTciBJS2cvIV--SOrlawVOrPq_8h70d-SuoEwRH4TUEgwUPCFnSsGfwsWaL8xJd6oLF-fbHJCoqfTMtj-nVCXwNB5aZou3jjWoKOS3cGvRQImeCbrMv7eTMntnnb6vpENTbRcYVx4rg597WA3fKp0W&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4640&photoreference=Aap_uECGtCSkrXRPlTJYLUlVOJzDm01g_wD0l7f2wuAQATOhMXJbqZwY_auR0nMzMDVK2gjKtLMX7Dz1LVzz2ba1ncsXtNbNzeGGz_-yVTK0Igbbyie2Winze7cxFjsGmwo4GNgB1QVm73nH2s6IBIlJCHGHBhDTHnFT9a73tV7FxpgeQRjT&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "The Mall, St. James's",
       postalCode: "SW1Y 5AH",
@@ -938,7 +748,7 @@ const places = [
   {
     name: "The Photographers' Gallery",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3000&photoreference=Aap_uEBlU_qL2wncifkzS25JRT8KPbT2_-LWWQRianKW4oFFdl4drcXfOWLhVg-Xsr-GtSz-o9wI1y5IuD7YAh0P-JTZ0DJKK4yL-xh02EdY9zsA6sc23FR5HGyT3yImcG9nHxQq9EHiHgdNP_bfTrnMQBM55yDc_Oh3-iGSkYF564SRFiVH&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3000&photoreference=Aap_uEBDrh_hP1EWqKiWqiFoX0B1DQMF5Y3nXESSbaOMcLHWhYUNLsRPkQTcxLIVCfFFQ1a3IpQtfrSrG-3BY1UNWb_aPXV5Gfs5-lx5viH55OA1fJCn3i9b6i9h78IvHWIQCEb5MCxFkv4MAoEsDxxyY5opx4J9celwJDQs9Gj2gjAMNsxz&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "16-18 Ramillies St",
       postalCode: "W1F 7LW",
@@ -957,7 +767,7 @@ const places = [
   {
     name: "National Portrait Gallery",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4032&photoreference=Aap_uEAz5A1IHvP5nQ_EqOaavDhAvTKhAEetqrxBZzNSCmyUnaGVhFv-BqrbwVZPoODGMjuLrOLR2H-Eo9Ma7LeHhnfL9r0fG1ZBZGs_9zCqlGnUqrOtEc3oj-O1KtRWWvpmh8oPOV0N0fN_TA3ZPHq38gnzdEWuQ3u8vjV1e8Lg_Fr3hMk2&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4032&photoreference=Aap_uEDqRric_pnWxBguTgwHwPLr0ybpz7Xt6IYDBljdOz_QvaphcpHUgMTvn7L6z_fs3ZK-VPpbn_6sVQ129qcI8IlY8UoV3Dl4MLWvfigHbm3orZ1I66UovbEGPeDF8gfGXZzZtD5ge8M0V5UiYBdSSMvePir25BQr_Ccogj9KpzDfjnqr&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "St. Martin's Pl",
       postalCode: "WC2H 0HE",
@@ -977,7 +787,7 @@ const places = [
   {
     name: "Hayward Gallery",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=700&photoreference=Aap_uECH1fJfHtI_i-K7vAGF_-mUjMHEhNkYpnpYS5vm06jdRcNRnDl1vBIWUamMKzb7vxUhN5y6nl5XnSKsAkXB39Cuhp3B4EvP_D1kQ4FrjaP4Cf_j5u7JQj8NWlXAwSEjCFzeEaH4WncapFU2fIR9sdF55qOVG8zepfPDowKO_xOO_IU&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=700&photoreference=Aap_uEAxZXGplhKi6IkCgnamzjQDeHiA8q_AjrhpafIgcezQJc3dmDhSv7zuUzExDxhjE5Gpk-m7i8_omDjBCbEnRC3Rl1D1DBSS5IHuj_3K1z_xW10TX7hE7qvWXrxgDjPDrusNYyj0ger2s59EjWX-M5mlq1c23avIfZL02bZ6YZ7c74E&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Hayward Gallery, Southbank Centre, Belvedere Rd",
       postalCode: "SE1 8XX",
@@ -991,7 +801,7 @@ const places = [
   {
     name: "Royal Academy of Arts",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4000&photoreference=Aap_uEBqtsoLJDZTy6vx7n6hREm_pZYjvYuAZgQ28cXPXlpx9dMf09pXRHtxEFz82nJLn1D_zwZKgsFb5v0hhOJnDjTcSc8cZtldcO_W-HK_VbCSJgaRZPnKYhPnIunc5DbaLs0POouD4rWDGBJWL_RWnZHMxWcWMoxE63TdIKTJx8CqOFfu&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4000&photoreference=Aap_uEAYxce31TCqXlGWvyLq6bF00iLKSsC1m7dZoX4rNx7eQmhxKPB5qJcrbJhnqOdEwFoqm_JhreDa1jcyGByodvvpbPGAlEdlovWvxnIGoCJc4LvW57G7a7bix5Yr1_YkE-hVdUiLtCynlwkyn4z2v2u-TNjeKdRbnJUxekb_DkVL5015&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Burlington House, Piccadilly",
       postalCode: "W1J 0BD",
@@ -1010,7 +820,7 @@ const places = [
   {
     name: "Tate Britain",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=12000&photoreference=Aap_uEBj2432qNIPXuUHABxST74i8uxVEDyeG3mWohuV76es-wFch9IC8fXRIhITZy6EzeG9ZK9-i7Q2tm81f6L7LxNGn8Kn9leMVGalUCRZQiNz8DifrL-FhCJ0MQZagzwnl5kg3Y1k2X1-_mRPhcRJw9mLkzNvLfCXVPcNpbkAGUBUkZ1B&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=12000&photoreference=Aap_uECZHDQt3LoY8pXVfDeRCFR3EIrOu8ufyshyYqlaLtWGvM_zgSrvCxS7Kib8riRHLHH-hBotB9GPGh0gxM2zplUhZt_3cYIXKdYeZGfmi6-2c_M3PE0UETirRkyM5wUq4isB6SS9_Gvioyy34beBV5GIn1VcoEBRaoCUvibC0NIfjcqk&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Millbank",
       postalCode: "SW1P 4RG",
@@ -1030,7 +840,7 @@ const places = [
   {
     name: "Tate Modern",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1960&photoreference=Aap_uECsgRtU2kIBEPsoJrGG6qs8cN8SSUnJ13xyu97CINORquwZXh3rdr2A3VJHKc1WSjVIpO4aBzfAZgmDbD3Vxydas4Pf-TG_M_fWGFCsrlw5-bB6vXDsQYbfljUTO7_jPjPC1IFG_0_Bwh3JcZErjK39RtjI8KwPny-2AXsA3lED09bK&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1960&photoreference=Aap_uEBJj6VkZExbxsoy4JU5jaYRYmGmHhvKQ-ToRIqlERsnMuGd_qCdPYpFGgE_L78lj57srnF5YNAjRJfAOnLRizPVVinEO2sGeqEbztqIh3MM5h55LWPrRv-26E37ch4url181DdliMQJWBnZYyRVmT8rglWQyYCuI8gnK8-GIiYifUKk&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Bankside",
       postalCode: "SE1 9TG",
@@ -1050,7 +860,7 @@ const places = [
   {
     name: "Maison Bertaux",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=750&photoreference=Aap_uEAS8JqlvpJSUExuYx75iI_oH2qIoLH5IwAEvvIPSP-5127vxl47oOx3-GW7MnhkPY4w-FizJ_I4hG7dXveIw_RcnTBxnL1oPuPAcBEBKyjJeI_oFAxSJ1tkYdiFWz8-ziSTbDL4uyvK8DkQddT5TvQKawPQzYwJS0BFuQmOBuYoYKxd&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=750&photoreference=Aap_uEAKv-4eb9r0bpKQEEgHZISMlDgbQJJQ-GbyA8UwiXoqqvwRM8oBtSDILpRwVtjqcj9PL6ddzwyoLH1l7zTiMA__zpeplhAoWI_picqQ3Sp2-n2DAMygcygWcq_X-olE74iVJpwplOnt78Kz4jhd6t-1UuXRSlfsNpzIydv9X35_BKe0&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "28 Greek St",
       postalCode: "W1D 5DQ",
@@ -1072,7 +882,7 @@ const places = [
   {
     name: "The Poetry Café..",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uECvR1f947YqqG0UFbEhdeZafCLmaAv6CGG1Bm0pxuZW6Qbij3A3yc0pqndBt45iNALMBwDaulYV5Cf-Aj9DgRHtDUPhh4EMnzgI2GCFjrdKV35bUdf9r0D_-vyOYKN8Li2ne5HWioRg-aZe2MyAX0KjTnUXPC5kZxEXsIeKtXy9H3af&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uEB_A2bGT89Gc8RKPjsRsghZo67zZg24VwSafZJvWGRz3FYPiQcUFc43KXt8BGMmAYeTcdstOTswKmq9elIkTxXOgYDCubRfzw6y3Njg4-Kh7LH_gqZTYX3U519E6PoyY9l74ntoTpqpzOT5zTmlJz08dUhjicCi8sTZMH3lGB8ATS53&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "22 Betterton St",
       postalCode: "WC2H 9BX",
@@ -1093,7 +903,7 @@ const places = [
   {
     name: "IMAGE",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1536&photoreference=Aap_uEBwQ_r6IrwK-4CLYE0zbOthSWJ-4Y5m4Y3y6WZR6Eu8p45UTEvRwJhkk6-yci34F5rIg164K5I6BUnMNftbQKodhe7fi66XAr3EfwvKUavZ9xqqz_eiqapzf04-TRxDprYoFCJINLRpmR74AtEC36d-X_6MpR19CUAXZD56VkxzlA84&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1536&photoreference=Aap_uECGl2Xm3hx5_35ZeHtkPNbBPULHpFYmZO-bYydfOgnc63EFQMiUbCs1wdxD5hIDgpALHP6haZ9_X2Cg3isYGfLCGlxDPrw8UzHhQujgky8sXnxlaA_QhyrWA8pE-VFGugiWAe8eWKoghh8P4H17gdye4oYgBz6Y9YSBuIKbw-rYfTtD&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "24-25 Foley St",
       postalCode: "W1W 6DS",
@@ -1107,7 +917,7 @@ const places = [
   {
     name: "Frith Street Gallery",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3264&photoreference=Aap_uEDFjmAgrPEtNQ46c-z5axgMHn5yfd6xBvJjyRNY6NAE58hYHB8tNvmBaOr4nQejWj7p0b6cvPoZ8tvbgV-nxlU31tDAdeX6ryjD7L57PXMjmRgHIEPqABv7AM-0Z0tRqyi46xqhbT0qtfsH1Hxa2Sq1FkPVHLUT0jAZ8kIWUqW8L9lB&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3264&photoreference=Aap_uECEXA8RD5bVmMaO2DzbGL2WBzy7AawfAV-TWZAGHrcHlZbxQqO9fxSlYJbJmuGf12x7ZzX_abHUSf84VJdk5LXg6MFWO1bhBIa_DVAYEgMMRIWCn64KcZ_7aRZ-DpbII3Z8SX2UzhW8fRLy_Tc_Ow-UAJKUWBPiUuIb8JBBes-deEeg&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "17-18 Golden Square",
       postalCode: "W1F 9JJ",
@@ -1121,7 +931,7 @@ const places = [
   {
     name: "The Horse Hospital",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1556&photoreference=Aap_uEBjsv8DSYE9ZYsbhjsby-9-7gAEVTigjhyAUCStV59p4pM9BG4JzfCPgZG-HaI9Nd_ZqrQP9uPuVaIV3-UnPYaiSSslqaQyWjKWSOW6aO-PJDz7XOp-78yFo7cY6ZQXraKdfeDke0J6nzTh-p765Zfpe7kIQomi8lHIeihN_6qtB_Ks&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1556&photoreference=Aap_uEDX6TV7Iffxi4dXbOrYlnYE6CEzeWeHpuEok6bvCOiesgGjRl3V2NPericNx5hZnYaL5HwvdcM5rYuNqDIvsVmAAV5EGzOkHfx3yJpe5ht8cN17bO9Tc8A8cpF-NAqPftbd6GmlLB2HAaJzxLcn4POAUI3O3Uj6o3WgNGA__6ljtKDx&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Colonnade",
       postalCode: "WC1N 1JD",
@@ -1141,7 +951,7 @@ const places = [
   {
     name: "Halcyon Gallery",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1599&photoreference=Aap_uEBDHcQnpP2kyK-LDtVTrEMdBQjvRYlSnhIkDt3iRN73avCRVlZ13E_RvHugiwFCjUeskKhJXQ_5tHzR1K_FWjWeQw-iSbPPwhcGdKhSdcz6ny2Usip79qrtirhEU18ojBHtuSWn_bAJ2TMCpqkwbtWM4nADYSOahmrNWnJgcORwF9Xi&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1599&photoreference=Aap_uECnBLXZWhIEAYqtUSfXtHp0-Y9rV_UKoABr9PcCqk3IkUfeORHYzrZfmj6aA2s0lcYQKXou71vBtpGWXkx9eLTaCnrGTPuML_TCmWGmSJq-7sl0-sXjiC6hLW644IKVO0YGwaKQgLaICuS7D1vByZwkPpdlW7QzbbuOyX4cba8SZpXZ&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "144-146 New Bond St",
       postalCode: "W1S 2PF",
@@ -1160,7 +970,7 @@ const places = [
   {
     name: "Daniel Crouch Rare Books",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1914&photoreference=Aap_uEDp44MvAtXN1oEHELcE8fHs3RVJkaM_6L_R5hdU8eLKd2nVozhZ9jYNmq_vkVlKbHpiuc__HQObHhkj3_ynqogoIsH-ZAd55d1T1Krc0ZYutzlwrqVsuv6Q4883A3M0-C68530rLEvYAYt76DV0lVKvhJy9UEdHQcHr8X1Ln7TwPJgY&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1914&photoreference=Aap_uECYATCmHC4pYQosLo1BoPF9BwyrXitc1xYDqKYtIacz8eK1KwGR1U_WPfkAX6pd6ny2eucxumw3B8bNMOsDSC0X2x8PA9IHW-6aPfL54shS0-cUQcm6G1NU-IYynJccCx7E5SGQutSG_meO02N0A7fgF-9vVBuJmxIrcTFfPXzI-9LS&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "4 Bury St, St. James's",
       postalCode: "SW1Y 6AB",
@@ -1181,7 +991,7 @@ const places = [
   {
     name: "The Queen's Gallery, Buckingham Palace",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=7726&photoreference=Aap_uEBrCZpdEJ80hGKExlaEuEWCDWn13GFiR5clbhqfIS5EemQrsxV8VrWNRMPTclYErx9ibM7f_n4fyHvTLNSB8phsqFm63tFg_ybg0qoalbAHEO9K9F2JfEPYtXuLJK-R2J2Bs56u55oqZ6cX3CRcfRh0qZ7684e_CRRTqsUuRfOwMeGq&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=7726&photoreference=Aap_uEBjp4qrYMj2-YHp0eS72uDO3rvS9rhg2gp4YqvN18iVmGpz1aH7pKlTZ4a2BI7x7fh2PbSdgy6yOlKm-Qz3NXsYG0TwaqJhUyhYxoTOhA2pI4Dly-L3K2CJiUTAEp97PmuVnczF0QcnVq2WQpBtMu-FY5TLPpzVwrrPUeH6Vb3c69Xz&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Buckingham Palace",
       postalCode: "SW1A 1AA",
@@ -1201,7 +1011,7 @@ const places = [
   {
     name: "Two Temple Place",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uECaqtZZGIlNGWBuIswjRnslrWX3G7aQSkY5-b0q-UkN0QULWjn9BRt3qB9D7Az1nyHrXECQpsqYPeceyKpOTbHzBMB7AOOT5FY7eiAHc-6_w-zMZ6arEEiIqzRYBhSi9D0gC6KYRlCKK4Q7xJXVo__g1cr5lbvx4sqZMVxExNodNepM&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uEARS6lZ6VsHxoOpgq8GG_QpABjFt6uT6AdyYlqUclnKui2hbMCxiGRymseXWaXulKlKCGXaBeZBbaysDIDWCDs64jCXl3Ttm2WT_r237EqwSCrrwJzUFOhgD8pcp6UqRKUIGQSH43cRmOLGaPNyASoDZGlGF7Zasng_aqFkxGSvbHCI&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "2 Temple Pl, Temple",
       postalCode: "WC2R 3BD",
@@ -1220,7 +1030,7 @@ const places = [
   {
     name: "Brunei Gallery SOAS",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4032&photoreference=Aap_uECEOMYxXqsI6StTBseeH0on3W8oWmx19fT0FeQK67PRmEBOXeRTe0R96ZK1DQZk2BdBLmEngqVFdJ-ytn5RMv2vi9NkoS8aXNUD0AbL7TyD2Vp0_Zj1gzpRBPMQmBE6orRip1D2zvjv0H0XigrkLenBANMGxplHDXKbbF3oAGGLjdZI&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4032&photoreference=Aap_uEAG_jFskmLtwjhm_UxYiQfM68rZ2tcMvzRfDF6ch_u-sPhTTMtTck6jYH7A_P2kzQdHPXb2ykwAM8Ey65rd28mDSIqJXfeCvYe8---Xdl8pLMwnRgOn6itHgZ_1wPokjwEegQ2DVeFf5Ndb-Ka3lXYvkzk9pbBchGMy2KjXxTuKtqVO&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "SOAS, University of London Thornhaugh Street, Russell Square",
       postalCode: "WC1H 0XG",
@@ -1234,7 +1044,7 @@ const places = [
   {
     name: "John Martin Gallery",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5008&photoreference=Aap_uED1H9V9HgS692-rcmTksP0HitNS9bFqHtGgtg3ZadVzaLFLo4sZtSowtORF7CbhJt8penZ0wUe-zvvk58clCtO6q7H5MBXacRj1QEmmzKOcrMsqemBaTq7PZBklTVDnteu7JovXvmSpAmysk0M55WZMdA3inGagaGmRw0nM8nRtNzGk&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5008&photoreference=Aap_uEDTq_Bp8fQ4RNOP0gjYMm-xzaIz2F_WqHMvrV79bGXqi2SK9wOZHJi5-V9v_GF_LOxI82kuzefrgjqmzFCIT7MD95LI0mAYpDHDN2g2jqTaiHfCdsYOjbDxPbrJlbJQ0GoKo5vb2SLm-PG351fZ015UAtdUgy1yNy4IEO_b3ihsnamE&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "First Floor, 38 Albemarle St",
       postalCode: "W1S 4JG",
@@ -1248,7 +1058,7 @@ const places = [
   {
     name: "EXTREME",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1080&photoreference=Aap_uECjd0AEFbVChUe4BH5LYLbb4666nA616QPqPWRCj27YfaG959unC5oX9Kw8nwanUBE0pDwA6YeDP0rD94kpXotHG-9gDmnPKi9bXjVRr3AKKRVbTrKNuCHGn6Bl9BY85QpUCfFO6gaR0FWwsvuKOrgU0qDNw2d1PNtKU8v6xc36AiL2&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1080&photoreference=Aap_uECYnZUk5lIw6-TJGeS6xBTGwTgTmyLCYlmVg2nyqbbsUOqTzvPZCWfrFFpMUUKD0EChE41_IFPS5W8gJsIck6pyPzm_x5FBrsWwyMxSOpFDXWfwm_UonoJsn3FqIMbgc67RdlR8sNpOuUGPtTdtx-v_vsHgIR1epWFrkWY8KhLb9xyp&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "30 Stamford St",
       postalCode: "SE1 9LS",
@@ -1265,33 +1075,9 @@ const places = [
     info: "http://www.extremesportscompany.com/",
   },
   {
-    name: "Park Plaza London Riverbank",
-    image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1136&photoreference=Aap_uECA61jn3l5F10qNIRy6Xb0CCPEqIkC7Lg-LH9A1DMjZMy4IjHn7mCAjCJP-faLgrp8647H3EoqgKQwhIX6ts9nKR9ylmBkFmXYm5TsyT9tOdu7N2ndT09mYN7UwumZVILDh36YvGQK1OQ3i3aIc1xZ0mWbDTWIwcEJT9bzp87iGQ9II&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
-    location: {
-      address: "18 Albert Embankment",
-      postalCode: "SE1 7TJ",
-      city: "London",
-      country: "UK",
-    },
-    keywords: [
-      "night_club",
-      "lodging",
-      "bar",
-      "restaurant",
-      "food",
-      "gym",
-      "health",
-      "point_of_interest",
-      "establishment",
-    ],
-    rating: 4.3,
-    info: "https://www.radissonhotels.com/en-us/hotels/park-plaza-london-riverbank?cid=b:gmb+c:emea+e:pph+d:cese+f:en-US+h:PPRL",
-  },
-  {
     name: "Heaven",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uEBMjS_gfxdYG5vAaNlu2l_og4wGL6VC4DUyGoXBRTc_WxCEJ8vu4w693E8bIF5anlTRVGGvxFENpuu-S7vIsi1GXuW-dsLJPFpPmptb1KispRfj34nJmzQ4t1FgCX_1zG1hRL1Xg39h4du0NoxOrjsVmXXltFnLiQkR19I0Y7FPFWMD&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uEAZWYNPecviqNMQj4rrc4Z7lg7uuZmCf8NTfVJ0-3pj02NAf7dNNFrv6g7koo1fxVx4YePIYX8LXTheKIAnQ5CMZ6A2cr97KO1qwig4DjILT1XFnthX3M3nsalK2NPybd-WO3Mr8sMpqe8RXcqCj26JRivwx4OCLGHGD5Ld7rh_aS9l&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "9, The Arches, Villiers St",
       postalCode: "WC2N 6NG",
@@ -1305,7 +1091,7 @@ const places = [
   {
     name: "Tattershall Castle",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5467&photoreference=Aap_uEDRVhls4QlFWhiLzy3N8JonB-V85FEA6lZISmF9IvFDeUffKe4JkscR4KZO-2dbBbgzltM9daMXwZv_ZU3VUMMCtAm95ZyTsM4pdsdY1QwalWl8GRVFt90owtnYCuNGFB5ZodG-nkQgahv2Mwegaqd-f7cyvvjs9Cu-UxGpXJXJDCl2&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5467&photoreference=Aap_uED2zjwv4-4-His_WnTT1MlU1vd813YapvQGyVXyDfdUiDVr00Wd4OP2nxSpHG1KxO2mUq15sNgr6LE6wXXmXaUW-Wp2_gmMbUVDV4cvyWMvn27cRyLc3X-fd6CCFHsxlc6S7fPMylKP7IdSfQEy_SLIrNAYRDmT3YmTC1Yev5Ak9NM9&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Victoria Embankment",
       postalCode: "SW1A 2HR",
@@ -1326,7 +1112,7 @@ const places = [
   {
     name: "Long Bar",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1000&photoreference=Aap_uEAzfyrUQ0YEmO9vruypXkWinnca4ltyyw7IYvF0Sy8azxbwId-fhpoCmMZUuaMLNNIl0AIiF4x7zeo6gsvReyItlIKSIdiJnh-BOKHLAiJUUaorBYWsrYdvStJgQZtr1KStgG-k0_y3_46tiM2-8NSjiloK9XZ_BlejIBg34YOt_tqL&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1000&photoreference=Aap_uEBOwl8wbyt6Lw8ds3S93PJ79WkGsKPc2NwQijBwZHTxdT2E6gBfJ0qRvNH39ladXPpTqpjsLQ1e36bjQ9cLkaSiLiWKfD5LM9wBxc88kcgp-2ib8iNifqUw_m9l1sggOgGrW0CT4TMj76TLgbe3y4wOaewTSSVFOKRv9wKJ_quGcunp&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "50 Berners St",
       postalCode: "W1T 3NG",
@@ -1347,7 +1133,7 @@ const places = [
   {
     name: "Ronnie Scott's",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5520&photoreference=Aap_uEAciNvW5ytXhf1EdSmnuKvrMnIw5UfG-CTCK3X5CUXeNJK9qxuHRhAen9l4mbP_QihzG97UEs-nGTRhvjVXXLXpmyGheDRQA-n4xvTHDzR2cCxUf8l8St2hWScnigRm2iDfDWnxo57StQF0gFOpxwdhmyKCKBJyfQbwv1sx3HrcNdy8&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5520&photoreference=Aap_uEBhZAF_t3L71j2SNnxDw98mmEjqsN-IsRfs-eelWuhwprgnC5ND4_xzHqj-R0iuOIfbdpx23GOfsPifS6T0hRtk6tm2bHC0SvdjBm6UVFbqQj0x3TabvZeZ2YgBakHmyM789yXDEcrsuQuQDic8lOllEVxVlbynmPtBuPVcl8y8tfrG&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "47 Frith St",
       postalCode: "W1D 4HT",
@@ -1361,7 +1147,7 @@ const places = [
   {
     name: "The Penthouse London",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1536&photoreference=Aap_uEBQZDQocRt2quE0QykzX4HL5PweYvSloQlgVh3z8aIC8gl7X5NocXfdZunFq1UMNxAbZ1Zy69uWhKVvFTh8REXDF2wxLMNy3hrj8TzJkPSt6lvvfKfuHswezQnOFi0MQFqtOwBWnKINCWPzmXDL-l1012YDYhDelJOgaeafZyKVYf0&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1536&photoreference=Aap_uECzZBcBeRecFHcrNGnsVt5-QCl4GnZ2xSrMAYRFBUwrlXVO586olGz-8Dx4wJDfn7HzRhz1V3S9u9Nq2mQKHuJDJDNxCW7ErR4EhVL-mezuNNwNzQ3B67E0WqpLGqqWAlQ7I1z-381WgNuYK9FGjenenqdcc3kbxalZCqPh1g-tnFU&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "1 Leicester Square",
       postalCode: "WC2H 7NA",
@@ -1370,12 +1156,12 @@ const places = [
     },
     keywords: ["night_club", "point_of_interest", "establishment"],
     rating: 2.9,
-    info: "undefined",
+    info: "N/A",
   },
   {
     name: "The Social",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4032&photoreference=Aap_uEDvcGAjxzWQANTlxmfn0S3uTiVAYITZXwQgFvPkIpaSHS1e34wpt5scpUI-yWorlZ6ew7egOnxu49Wt0p_n6MTycakEmpXv2f20RZg6Xd-nfwsaNauwzqMbFJkxyezxufijmmSTGuecXUgQqPL8VZNUzUSZ-7s_dp-FSRNuYa8AJnIU&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4032&photoreference=Aap_uECDiy_nIaHgAqeJhZDWjs_vBo6tHUiyJqjkeoziABhny32sDZQgJkS8dycnzmJ8k51b9URMbN8H9OktqglFOfOF6IOD-G9SAxwGfC0srOtwcna6k7PXjaPBEKtx38XlvAk10kuEO61rcy_Uhz-yppdVZT_xIsgij8ghboWv3QPY0O_Y&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "5 Little Portland St",
       postalCode: "W1W 7JD",
@@ -1396,7 +1182,7 @@ const places = [
   {
     name: "The Loop Bar",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4256&photoreference=Aap_uEC9YWNH5vDIFyJ97mz6ufvtySKacVG6KbXiofnBuqgus5zmWqyChKs2e8rnbEugMAzVScCG-XP7tR50c_ZxsWTUkTkOheRXQdRfdadWuIiZnRUViNBHb5kB5iM3RAmQM7CmlVQZ6NFqvq9_DmdA_FRYJJw0TIyShWN4SCTbNUFtJOJd&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4256&photoreference=Aap_uEBU_lJR1hYS8WwVJm7CiRajBdxPiVW1KpiMH6N7q2jB-IS1ac3UU2AaX32GYV5p1bmVqDQqkxVqosaIccD7m_7BhFU-SOcGyEA-0xiDYGvDaU_iVVFJ_1aSRgSrRdIKdI9ZGHaLujchJ1S8iPzJobvJ1CtX7LgRxNj-X3FoS-k0LJk7&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "19 Dering St",
       postalCode: "W1S 1AH",
@@ -1417,7 +1203,7 @@ const places = [
   {
     name: "Rumba",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1000&photoreference=Aap_uEAMcqh0UNxt5iYDXpkKsWDnKov6jfM6xiaqyzdmLUd61tIg9nBgu7PnakwWSk0jx_863ZxnKNTFIdLhVg8r4mJeU4RXsx9KPJ0FJXFSdbTzydcalHHmFuAUGypZjqCKSKjacDNg3Xzivjq_zlbBmo-qPI2HjyQiICUL-tNQ-u5t1bYs&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1000&photoreference=Aap_uEBWuz0trqbI-vAwkppy8dYUj9ecoxFGAviIc8fvwZaqRPAcQjR-d0uwM-joYWe3T19TcW8GHKpo8YtdxSMeGHOVCTJXq0Mo9a4TVnpA3_WE8aRz7V5Xafe3xqFYkVWbVK9YmO0zPMSwJ-6tzqHDq-9czLzK5xHc6dyJ0MUTJxJqEYXL&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "36 Shaftesbury Ave",
       postalCode: "W1D 7EP",
@@ -1431,7 +1217,7 @@ const places = [
   {
     name: "Circus",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uEC04dpFn-4ovCipMmfXZyREYaP9xyEZADdbFtqWQz2HpOd5zYIbQ38a3JiLx9NfluB-werGSt3K3bHXXmK4pEHDEqF_hL7tnzage917mjA_aiM71kVm8LALCYOKlYhNKT_bD9udHBG7YqZ2bqqmiFHc-nMSBIgWeUhkyMN0swmhcXV6&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uEAt1rvDfXDrL77Ld89lWxobkPvBhouAVY0Mm0SEOVkY8wavrksCztyYy81zLVVfs8rkNeVcs3d5tTaU-_4bLZi6HB_G02796cOqzp8TY7rM0yy-qk8vmoyzJDbxUiS6YPCyR8fexv4RplZA5_KSEf4Tw3SvkTD5zFPE8zpRmF28VpO4&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "27-29 Endell St",
       postalCode: "WC2H 9BA",
@@ -1450,23 +1236,9 @@ const places = [
     info: "http://www.circus-london.co.uk/",
   },
   {
-    name: "The Windmill International",
-    image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3222&photoreference=Aap_uEBwHUZ-HIdc4SPNGcir2d4KZ9REiVzcfuatFEtb-8sijN0EydE-D6MKwfigYCDZbK7C_ZwDTNR_iyVXf9ZEwzqTogpoPP7DpucA2t5aNulkI4NUHUs-i5OKhJf7xIPc1K7-YeFGNZNoDhXG0bItDbXUJH5_zP6m3SIxVsSjlFd6A5Ky&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
-    location: {
-      address: "17-19 Great Windmill St",
-      postalCode: "W1D 7JZ",
-      city: "London",
-      country: "UK",
-    },
-    keywords: ["night_club", "point_of_interest", "establishment"],
-    rating: 3.3,
-    info: "http://www.windmillinternational.com/",
-  },
-  {
     name: "Cirque Le Soir",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1120&photoreference=Aap_uEAATP2Ix3geCqgfHjduZ0J4pdZ377ywEEOjIyOQ1CgGNz9jqrhLdbPe3OP9csyXOQGlz7lmtxsjD3RAZ-x1px6qujlgAzVLM3oP4Sj8Hze6M8LpwgXN6GnxN-SRfoD6l_ck1nkX0GD-4ED6euWSpZtFQLOXOsQLoYc-Hsq6KK3lMYw&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1120&photoreference=Aap_uEDTeUWSd3Cg5zbHZxDLjRU0HDXNmOSeDbj0Ox19ixFoFlfSC_x__DK9HNXcyPyuZAuA5-aSaLLxZr9dRwI-FfkfLFs3uVwHTBwTOuoxrR24mPxJCDU6q-wde_m8PLwpE-YJKfsy3e3bWj9yY6NLtYxbDOOYUbBBlp6tZ4x0IX-tEDk&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "15-21 Ganton St, Carnaby",
       postalCode: "W1F 9BN",
@@ -1480,7 +1252,7 @@ const places = [
   {
     name: "Zoo Bar & Club",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=512&photoreference=Aap_uEDk8peF7-jdpxuDp5jdzFlxzXB7TB6vSsNMJjnFa1jGkNhQ-vZY33Mtri1dxaL4bovAY2yHzEcJxV0YK1G-9yQehncBxt1gXhPXliHiquA4u2zg7fR3eOYCiLzYNNYKmhENK9b2c9AEoZxkhEUAee0-DahyTxvT91wbvMEJcWXFe4o&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=512&photoreference=Aap_uEDOALTXc5t5mTmHaMPQxDT20jRNmNSo8qhVPC4YS7JI1GxtBuWnmJMf5uqihG0vS30TfHljRgneY3MjFDiJUbekrVPYED8FtEZqdWnXH0rU4OovSCZgb3xygXxABRbFmy02OlhT8VHSt-Ugu5K1Qv8Z-I_vd_D5laNcWc2Uaymnsfk&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Leicester, Square, 13-17 Bear St",
       postalCode: "WC2H 7AQ",
@@ -1492,23 +1264,9 @@ const places = [
     info: "http://www.zoobar.co.uk/",
   },
   {
-    name: "Platinum Lace | The Best Gentlemen's Club & Strip Club in London",
-    image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4032&photoreference=Aap_uEA2StSomzSkcjX-D60KGycNECaJTJKsrZKyfC8BO77_atw5hH0pr64WEYDBZNBt1AyAZKejTKVlKj04TD2phHeieIRLLgMUuUeaKPM4TwSTt5tkX7oNmeUqQgvPEOWSOI-lu6ztxWfI6hqqn29qoKiSJGU3Kl38XNgF5h3nJvRYn473&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
-    location: {
-      address: "13 Coventry St",
-      postalCode: "W1D 7DH",
-      city: "London",
-      country: "UK",
-    },
-    keywords: ["night_club", "point_of_interest", "establishment"],
-    rating: 4.4,
-    info: "http://www.platinumlace.co.uk/london-coventry-st",
-  },
-  {
     name: "Salsa! Soho",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2980&photoreference=Aap_uEDEWtu0H48c9D5OatP3wSZJBB3_hXHCiiihuMeWZ6aB9K132Vefntn6j84Ky1mlB26SDjkp-0VgnMxIabNZIFA9C-fFOCAVJOYTnWegX-AMW0m-u3jjUCcp3yyRmcy7d4sb2H37qkBV_vfV7HybgsTvPtyQ4chG-63A6HoYhNEFnSXB&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2980&photoreference=Aap_uECDB2zMy3ja9cSp1k8Bj5ndywjSZ4221luMDfmLeN487NbXBpsQjNwoUcri1aaGB_us2ULjQDCXa7wndBA-0LJzkNrRsu--lsfpahNlB0Gs9b1_ha08KrHMK1TCx__8jhzVJg-X4nUsEO9qtl6bEu8Q37G2c83pQ3WWSNWgfJ14hV04&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "96 Charing Cross Rd",
       postalCode: "WC2H 0JG",
@@ -1522,7 +1280,7 @@ const places = [
   {
     name: "Slug & Lettuce Leicester Square",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3992&photoreference=Aap_uED5sS7PeZIsNSN5ELcj1T_hSz-WkRZOHP9dEfxIMLLClRetqUrwjAZzwYa-0GEDl6dRvoUpLG-vaopM933mr8K1VcQ-zT6vqZgSIwR4ClTQqsiQ5f8NsPELsZdAdBBEQLt_UlyZVZi70LzSjjFM6tX1qvgaXB2jqnrb7XOrTLHqWA4D&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3992&photoreference=Aap_uEClORyH6pda_RPIF2OaJogtyXTJiQuwyC8AK3sTQxFJP36We-XrYk9LJBA6HfgTMm1GvZeA738q263nZ8K77gg1F9GXDCxgfzWplX2Ay4Z1H_12Cz7GapDfCH4XK2iHOZixOtZWW7uiO95X2VTMbZqLvwqgDBN9eBSILpGxPY5HQwXv&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "5 Lisle St",
       postalCode: "WC2H 7BF",
@@ -1543,7 +1301,7 @@ const places = [
   {
     name: "Ain't Nothin But The Blues Bar",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4032&photoreference=Aap_uECrEO-QHrkmwxrC7VIBzcTCxnXAIiRIhsKxpc9oXPCYg4v5wWdlPM9u0M6NW8XiDBYo3L7IhDSMtKGK5LEr_R5aLlPr2npdYDHqQ3f3vianzdhjoLofnNUKVrj0uLP_FqhuKt19K9WJaCfl27S2nMP68Oe5GrJF8c54cotk8hx_bvVr&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4032&photoreference=Aap_uEDELZQX1ybI36cZHZXm0zcT12PISjip7awo6SUNbCF7LJq50UcLGpLqXuoZFYi-RwL_FG4-a14BZt6pmCnJ2NbWLcU_MtJGJKmvZAgMzsMag2hCzVWf-oD9BTzl1o7Lu62_mVbTeZJ5Avzwj8ygGX1yXlJqcXBzYyNzHdaJowKHUGfo&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "20 Kingly St, Carnaby",
       postalCode: "W1B 5PZ",
@@ -1563,7 +1321,7 @@ const places = [
   {
     name: "Piccadilly Institute",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3024&photoreference=Aap_uEArH4Eqkydk6KsXmokMmWhvuJrmgFek6VXCreOk4Us3ifQbiIJwkva8f7K0kz4-tW8dbzmLaVfdjDfhxFR2SSIX1dTeh2s-3bCgaTpESh4YhbTveM4CewpF8ASdrfwoVS9iXlFRR66pvBThnLxo2katnUyyXr-mFfKJ5jcmHnL9lFyd&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3024&photoreference=Aap_uED5KzXDi-yUjI7DkZzxLhaUPl4LTujcflt1f3zpbK4JjWf2OW9sX9gHYhzgScd77JXdMdNAgApUwDrQdDWBOMzGkG8wYB6udJyBuSOlutUkX0mH690lR05U9mRkfqQLM3Z4QfHYX0wMoJ6IP4Ri9Ozi9wTTNstkHjoRz41X_AM6OJdy&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "The London Pavillion, 1 Piccadilly Circus",
       postalCode: "W1J 0DA",
@@ -1577,7 +1335,7 @@ const places = [
   {
     name: "Chinawhite",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2988&photoreference=Aap_uEAySNMKJxE1jBtT12Cv3mg8THwhkOb3-o9sfIsbIQqLMEoqHnY4z3V7PTB5UKjqye2dqRhBUpcJ7VcZA4cb9z6UqM1FXCn6FXG95Mt49Q7YyManCKh7mMfkmGuDoEeoCP1e2LuoeRnKjrPE00nesSyKwx0nYyE_y5qXMWoygak9Vwu_&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2988&photoreference=Aap_uEDFsN28kpp5ddWtbbJDqQWrxooivkl_HGspLotgeQb6UlyQ58g6RaDvtiUR0Qd3WSTx9ToUMT6sl2hDRLMLKMbCqwm_mc1oVpBYfW3EWFYafTqAgT5Pd5elz38hu_uaDu93zg3HYfs1GHW5o6-cMcagXMd1V1wcoUbp4gwCXLnRc-QZ&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "4 Winsley St",
       postalCode: "W1W 8HF",
@@ -1591,7 +1349,7 @@ const places = [
   {
     name: "Jazz After Dark Ltd",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1920&photoreference=Aap_uEAD4j07bRHAuewzLdEinsUXmyEH06lgV1hounYt79ghmE3pxrjmbagFAfYjZOu7qif4enzVskChoQOeyeK-V037kyRRDhNe2rg2iGJVNdfw5BtjLa5kjrUMTC8d5KEVSMlPFx9tLKAs7lpcWoFtZSVeeqzDn_Xgpby2Im3p79Cft-h_&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1920&photoreference=Aap_uEApL5o50TK1Kdu61ffUStWsnJMutrPLdB6AxtmnNyAXmUDQRZcFG9FUFk3uXJTXmO8l-_5PJLa7ImBjDxskTdSnXPzTgtHR78_9nj7T2SEJwoiT1vp9TVPc6g1JPUaj2XpvtGOx-EQzyK9Oisc-NOBZDI13XcXwp6SUjiCfl0PidGdG&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "9 Greek St",
       postalCode: "W1D 4DQ",
@@ -1610,9 +1368,23 @@ const places = [
     info: "http://www.jazzafterdark.co.uk/",
   },
   {
+    name: "The Mayfair Club",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3024&photoreference=Aap_uECQFuTJP9sJMYkMNaula5kaKEDyl77VYe5HyCkDBOocRRSm1Mcv0TW5ler49r8oiU4yWxrRwMAbWQBttGpzMpyflbTPn_NImt8WkSPSMlwQBs886HoETqWD1yScpkXRn6u1z-d4irQEAmr5FKli-fjux8V_HpkrLxjrSZmepe227SCm&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "49-50 Dover St",
+      postalCode: "W1S 4NY",
+      city: "London",
+      country: "UK",
+    },
+    keywords: ["night_club", "point_of_interest", "establishment"],
+    rating: 3.3,
+    info: "N/A",
+  },
+  {
     name: "Cardinal Place",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5312&photoreference=Aap_uEArnYF7_W0T35o50dkGimssNjuRaMjFmbxirfqYYV5VV3qnPtz4kOd-1V-H88uS22C7ejvzX8Ht5TU5-Jc2mzVcx-jaG2uAEEJMqbMrs5tgdvBl2zrSLKmEibvoy0GYOMGy28elrkagaVqKfS-OLRZVCn4zuPrFTBzEnFBwyfOENegQ&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5312&photoreference=Aap_uEDCX-Yi6oFmEdYZrqdOfZdfDC1yx4hZH0zmkX31wgLV5QZsbLhGZmeyoRe290Z27F8f5gqg6gQ2lWRt4pWgDI8sOQDPKQQehrWO4xL3uHywcPFvL7_41ivHeTDIUO1s1ZOKR4fJ7piGiA4CdHxDTS8sYlXxf1FcmSrdUumrF_k9_z1b&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Victoria St",
       postalCode: "SW1E 5JD",
@@ -1626,7 +1398,7 @@ const places = [
   {
     name: "Burlington Arcade",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=6936&photoreference=Aap_uEBTaStnLjItY9idOWYDbklO6GtQFY2NInksQgLoxEeFXy3pJ-d7wdLdhAJn6oIPNltbuVFJXma4g634XB6zHMaZ8x74OMm9luWenbg2Bn5iuXBbiv1Cu3qV3QCyytpDl9PtrjiBqfKrjG4MuRKJN7k8EVhol7NYUukAW9FyoRMxFFXg&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=6936&photoreference=Aap_uECIgvJaZflv_XTEy_SxgzkbviVG1foMa2x7mjWw4uzI54ljSmfEwEGC38wFRXHxgubOpF3qiHmlkTwC2aksyk-4eJAv9QUUFRdoiBdqh3HiEDllZSyCn6hJzPMOHvLdrNm82EmS3eLVxGJ1C5uOQWuO_o8B3PIHTmo15dkXV2Cfq_PB&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "51 Piccadilly",
       postalCode: "W1J 0QJ",
@@ -1640,7 +1412,7 @@ const places = [
   {
     name: "The Brunswick Centre",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4000&photoreference=Aap_uECYcKEQfJgMwtXs4OgoXciUtEKQuzGFDhJAhH2R1AwTGnkBpCnVckQkviULfBhgQfhyyzuXZlNYbP6XOJUhLUNKBxAISvEya8-LZnWn01j5CbYeYJZpUIDVmJvec4lk27FDp-vrmkpF8AWz2I4Ys1rt5Mw-uY3LNWsC9pk8eGicg3h1&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4000&photoreference=Aap_uECuHPJLT1PiRUQvTtsyBvHziyodjZ5Kl3gFSZpUtitIUMync7r0KmDiLEfCMLKW-hsEcdZfQiF7PI7xk_KaXRQY6cnYGxBz_3CTPEN7hY-mH69CXgfBirxH0BHCWMk8bt8XT8IqORRNPsObRWAH1oTdoUcJPoq9Wt_NmL8GtJFuKSag&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Bernard St",
       postalCode: "WC1N 1BS",
@@ -1654,7 +1426,7 @@ const places = [
   {
     name: "The Plaza",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=6000&photoreference=Aap_uEBchP-K3SkISnUkoF1CAv2NkJZS_11whnNhgvohl_q_juIl4qSuoes3bVyq9-VMWMWWo_VkprxEDMscd2zMeX8SVib_aeyfAmRRl_s4eTlnuCQb7_nVvLUpMTGmYdW5kYL7Ug7uvjpdn1ieGrK0iEXQ_J4eujLjsoXgcOet4HHMuSTH&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=6000&photoreference=Aap_uECc4MSWAZ4kbtpPk0qhIop9rIgl60NWLwDevIN654-j_-gdz-TQNii0wK-s0BLQEawbamStHhxDfNwPstuqXF6ucCanJZJiMxLUZoxShSAmcgp28DeLDpsvzruFqt1IY2oPm4QOez-Z-H5sk910NMREddtxb3ZCllSRfhScpnV-O9Y7&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "120 Oxford St",
       postalCode: "W1D 1LT",
@@ -1663,12 +1435,12 @@ const places = [
     },
     keywords: ["shopping_mall", "point_of_interest", "establishment"],
     rating: 3.5,
-    info: "undefined",
+    info: "N/A",
   },
   {
     name: "West One",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4608&photoreference=Aap_uECRK0a1u3KGD-Ai_gr9yblF_NktmE9jr2O0ZNnVu_iB618Hy-31ciL1vwxAILgtUPq_kyx3D8lR8iOM9qDsF1w7CscVZ_NinlSqyM-0dKf-GDG0TjmEqD5XI72bez-Z91h31ZEJWce9udDW9AjbL9EVro6MUIjPoAgYej2K2s-CLW12&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4608&photoreference=Aap_uEDamLnA-yuJ6_bLzddQkbZMunwHuLI7MCLR_y0YRWeSBdoXTKvYUvvdw6E2p1YNq8drwdAcYJs2Cp4BocRpBlza-EmobWpkul13BmWRwgdUQv58fIbbsKD9qyapUrjMg8jFn0VQ8sikAlHRzZ5HNhWqsptijIwdcZGiG2nBm0bkqamG&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "75 Davies St",
       postalCode: "W1K 5JN",
@@ -1680,23 +1452,9 @@ const places = [
     info: "http://www.west1shopping.co.uk/",
   },
   {
-    name: "ロイヤル・オペラ・アーケード",
-    image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4608&photoreference=Aap_uECeEZFOjPTheRySkL1JmdQWpwS0cJLde-j4l7JGsqwsOKXW0qf5XY2E82SKL8DqhV9717jDJNrGPBYQ3RpXOgAfMGWAMLLdHKlP5LVgIZZJMwjPkFGOzs8KhJGjKf295qWFeSLMkh2LW5Uu84aQ1i3pHYcwes_w5ajkXf572RSLE0E&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
-    location: {
-      address: "30 Royal Opera Arcade, St. James's",
-      postalCode: "SW1Y 4UY",
-      city: "London",
-      country: "UK",
-    },
-    keywords: ["shopping_mall", "point_of_interest", "establishment"],
-    rating: 4.4,
-    info: "undefined",
-  },
-  {
     name: "Covent Garden",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3024&photoreference=Aap_uED6Vr-pO5fjsDijhQ9QC9rl8G6lliwLpVIGfx52I2Uz4PKWp96-5ZnbWazdbqGZ8RMaN_0QO558KMw9skc-u-8lwqWpxYgzJDzY-sZtCFPpN_O1OqKApHZfl0o0UTJHbCjWfJfLbFFQyAAs7xsyh80Xs5zjzlDOovT1HFNrAdNPlxjv&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3024&photoreference=Aap_uEDC2wgKXMBND_N3v3cAlZisWoYLR7hFtTx-uhv9RoZLgEXH_6r9lSsG2uWxCPZf-9KfTQSGx3x7fyys2YHWUeb3fvP-YYSeSbMRvKpSqk4coJmJZXR1YaBPP3MWs8BdXYhQYztt2KkBJS6kAy8-5T0nBQ-X3MepICMeqqWgNHmRnLCK&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "14 James St",
       postalCode: "WC2E 8BU",
@@ -1710,7 +1468,7 @@ const places = [
   {
     name: "Princes Arcade",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3200&photoreference=Aap_uEA1CMSJC_v9XIvIU90kDJsodyUDdj28IlJGM5c_zDsmofkKjq0mcn1fqYyoeLn9BeJc5qUMXg-KOYRi_0vMRVy6_N47Vz7DMNROg3AMz0BKRzFEn9Y5dd4ozdD5j9qTNpsUo_i1FlFu8UZfnznMK3qGpNRSZOYlEGQhEiR88KlNjWhN&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3200&photoreference=Aap_uEDa23LTa0OAkg8TcXKfnSlAaAJd4hkHSbl1I_QJog0coc1poPDGXl7CC93QZQnjr1KRJj-KlwMETo7wePH9BF9QRrvq6OYOCYD4dBjfxisGQWlx1xIKqu3RV25SGdEwOiEDX2TzsIOWpUWDWavGwNCctK9gzVXQbPjyYmWNhMCh9ucn&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "196 Piccadilly, St. James's",
       postalCode: "W1J 9DY",
@@ -1719,12 +1477,12 @@ const places = [
     },
     keywords: ["shopping_mall", "point_of_interest", "establishment"],
     rating: 4.1,
-    info: "undefined",
+    info: "N/A",
   },
   {
     name: "Seven Dials",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4032&photoreference=Aap_uEDr-ZGt09cykTLJ50fNvQMydQ3cnuiYwvaXE2T6T4dnELldCQZW099q1dQIg3ypTNQLgyTZkl96KR1g9mn-AUoKK8o5qrabRELLzAAOF7zI09zWug4i1sP-FVjiaZQ9VrPz89FRfKOOdMK84UlwAAU4Fy5eGqx5R-ivFa35XbOpvqgE&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4032&photoreference=Aap_uEARJ94j3gDhkqZSl-iNKGcbIQMxUSAt0H4a_zJEaAJqQeosUtkorGtPrNlVMs4NPvSRoqW1wufvp698gQ4Zhdvglgntnd575dn3Xhngh4zwuJcphvk1QhIPXUNUOTpBeI1qJgSkIAZX-jrxoHPP6LhiGqFdjZ8kcq7opCpjIj3YfSzC&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "45 Seven Dials",
       postalCode: "WC2H 9HD",
@@ -1738,7 +1496,7 @@ const places = [
   {
     name: "Piccadilly Arcade",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5120&photoreference=Aap_uEChrAcfGLtwkyT9qU7_cny0A600-0SwmjONr5AlpqZLAj9llbSeu6QK3nehRfBTvf_pbvmg865fMH3EJWeDpEshYscajDKUQgKrA6_m-xaB_qvCrTEp8MhqIYizdJnzgY-zf50-IIXtYg8IxQCHmi5PycjLmr1ycrcEKxzpIdGX2omL&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5120&photoreference=Aap_uEBdPB5Q4jJI8QOiRv6hSKufELlIlPp-GT_Kd-3q9XVG2GR1jPsv1SJbHIe8jLitvO7BUwGMlxitcMFF4Dje88aIz2ByA0Y6nn3EdKEuzHcLsuQXaSl4nKitD233uhpG6RKYkGmKWwnb6QA7ZUXz5tvctV-m_q0D60-wVRV_zxaQnwLf&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
       address: "Piccadilly Arcade, St. James's",
       postalCode: "SW1Y 6NH",
@@ -1750,32 +1508,605 @@ const places = [
     info: "http://www.piccadilly-arcade.com/",
   },
   {
-    name: "Covent Garden",
+    name: "Rathbone Square",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3264&photoreference=Aap_uEDZpCBrAPWwwa7eVgMPnXrB0C43Z5_S2nuFbTXVuQyUtEfzaY42eimwW0YENP_fyaHOOknBahEC4pZBL7NVeaXfbmD8OopFbJGcqLEAc93hkVvhkdU2d0WFEXth-cHDITek3Nvy7r1b5_YzqNpuCMWBN74Z2sao7GagYlsg6nOhhoRY&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2048&photoreference=Aap_uECUYz90t2hp3tqHCFPJXN8wNrAP_GNeoBdMyInFUMbyuWExEzeVdR09OotneH2gP0IH3qo-W-IL29hmU3P49smy4oP-st0zP78YpVn11O04GUcTsdcBLlnL7dgsdXSiAwxWMc-ZoHlHxaDryyfanbtfGy6QMv7ZCGPHxVvyPtXTOQQy&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
-      address: "Neal's Yard",
-      postalCode: "WC2H 9AP",
+      address: "1 Rathbone Square",
+      postalCode: "W1T 1PB",
       city: "London",
       country: "UK",
     },
-    keywords: ["shopping_mall", "point_of_interest", "establishment"],
+    keywords: [
+      "shopping_mall",
+      "park",
+      "food",
+      "point_of_interest",
+      "establishment",
+    ],
     rating: 4.6,
-    info: "undefined",
+    info: "http://rathbonesquare.com/retail/",
   },
   {
-    name: "Covent garden",
+    name: "Oxo Tower Wharf",
     image:
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5184&photoreference=Aap_uEBUcQmlPIOtevn25e3mtBipacYtp8ilDJtv-nud-b4m1XyTxanUY8h3DRylpSyqZYn4112I_8Qzj3UnmhmolNSsKo-OPsNl_NAdV7ON-30evVXguoHbwWzD0jIrs4SglVoNI0ghB6mqTuRYeFLJw_zkpnZNzW-QR68ZucTTm9eP--A5&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4608&photoreference=Aap_uEArH0z9QluS_D7yzJ47OeDGD0Tv7uN7_mi6No02grUcuARc2d0OUH1ReB0DZ3ptMtfou4r5jOjw52oOpsL1XFP99kH1t48HRgm8icGs0kn76AaZAHZ2Ych9I_tm3u0hm1GigL7ag-VS8QqK0skAtfj65wqC76ZqkWTxiBwJeKaNc14p&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
     location: {
-      address: "ME London",
-      postalCode: "WC2R 1HA",
+      address: "Barge House St",
+      postalCode: "SE1 9PH",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "shopping_mall",
+      "tourist_attraction",
+      "point_of_interest",
+      "establishment",
+    ],
+    rating: 4.4,
+    info: "http://www.oxotower.co.uk/",
+  },
+  {
+    name: "Regent's Place",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2000&photoreference=Aap_uECZhf4B6XWLmqWmo7A6Q78FrcZKQf94EHofDytxn4y-CaK2HHlsYtjF_f0u5td93kGlDIaS6mfia05IAjtWupF3cSx22o6F801eQkrKvle70A7Px9jbuz27SU8qLw0jypzphm7m-0nabyL5C4Pdp8DWcroWoyeBpzSS3Ox6k8b1fwjd&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "80 Victoria St",
+      postalCode: "SW1E 5JL",
       city: "London",
       country: "UK",
     },
     keywords: ["shopping_mall", "point_of_interest", "establishment"],
-    rating: 3,
-    info: "https://www.coventgarden.london/",
+    rating: 5,
+    info: "N/A",
+  },
+  {
+    name: "Victoria Place",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4000&photoreference=Aap_uEBAJQxj0NZMHDiH0uUkOFm2nTuTWDge7H1TLfwqjAxQmtM6KShUfJnFtDDcUouEVzv9Ao0b09pkwvxAxdyGQfBF7m0s_rTQ3QEA0T69M6QcqCTYRyKKupgFD5w1XX0_RrIbdm87B-ljSvCm8XqFTsjjpt1cSVM6gDiT4HQ3D_zkZqed&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "115 Buckingham Palace Rd",
+      postalCode: "SW1W 9SJ",
+      city: "London",
+      country: "UK",
+    },
+    keywords: ["shopping_mall", "point_of_interest", "establishment"],
+    rating: 4.1,
+    info: "http://www.victoriaplace.co.uk/",
+  },
+  {
+    name: "Old War Office Building",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2250&photoreference=Aap_uECp70MfALvdZUXQr8bN0nLZl1evQJPoviUdUs_0aaz1VsZy7n1SPxTqVH31YOM9I1GabizeflG2Q_UKjZG82CpD1ZlFrk8_82pJA0x3L9kint6ggnPL_otDrbDxtlvrOWyww8E0sdzhcnHQB0Wc_0jGu9Cje7Is4Br_oq-P6auKCbXV&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "Whitehall",
+      postalCode: "SW1A 2EU",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "tourist_attraction",
+      "premise",
+      "point_of_interest",
+      "establishment",
+    ],
+    rating: 4.5,
+    info: "N/A",
+  },
+  {
+    name: "Theatre Royal Drury Lane",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4032&photoreference=Aap_uEBmoPCGAj7y8ShfgR48aU5IhUpR1MeNNXsd-wBOLQrg24yv-50e6PF0s_0wPHubeCZzBDGTo2MjY_C510LYLJWt_aGAaVqJfVjpPwK-piO5emoOlGd-eBlKI_SOsTlSN5hao7zo7GYzpDwHIaUGtNS5_-RMjR_4eq6804GrtMw2kn0_&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "Catherine St",
+      postalCode: "WC2B 5JF",
+      city: "London",
+      country: "UK",
+    },
+    keywords: ["tourist_attraction", "point_of_interest", "establishment"],
+    rating: 4.6,
+    info: "https://lwtheatres.co.uk/theatres/theatre-royal-drury-lane/",
+  },
+  {
+    name: "The British Museum",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3264&photoreference=Aap_uEDbOGSSs4bnQ53-NEK0he7etwyRBlzh4cLJok_Cxokw8HPjq-Y9eLplP_DVDwx5927Iv2LjbunjFj2pI2DueVplyUktCsLDNXYB4QhZKGA_ClIL92Tjj5vrs9WJdtA7Emjj3SnZ7JAKVP4Swa45zVihNFY92tP76RKVpi-cichEhquH&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "Great Russell St",
+      postalCode: "WC1B 3DG",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "museum",
+      "tourist_attraction",
+      "point_of_interest",
+      "establishment",
+    ],
+    rating: 4.7,
+    info: "https://www.britishmuseum.org/",
+  },
+  {
+    name: "Churchill War Rooms",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4032&photoreference=Aap_uEAzpLpAEotfHlq82_PJnQXhZi4a-JJk31s-rP_8j3kirBMbKgXmQh_6nrjcNK0Gu8dSd93rAsU9wGP42B1OjxjyuyAd9TFZd3UzchszFDJ3PQwM5qL-vMuhx2EN9Q7rwX3OPAnvOIhV2z8JhlZ4DSB0QwKHCzgk2sBqOTUEMCoHbCAC&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "Clive Steps, King Charles St",
+      postalCode: "SW1A 2AQ",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "tourist_attraction",
+      "cafe",
+      "museum",
+      "food",
+      "point_of_interest",
+      "establishment",
+    ],
+    rating: 4.6,
+    info: "https://www.iwm.org.uk/visits/churchill-war-rooms",
+  },
+  {
+    name: "Statue of Oliver Cromwell, Westminster",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1816&photoreference=Aap_uEB0Ee8Y1t__xC66q72dYzcNC435ErU3ExrLkJcnu6_WoOgnKEJexrPFQMtHnqOsVmw8VNycahtg3C8rAwI-YKooQ5lApXuqrwHO_jsZca6kIyjNNGnrJZzkGtotjNwhdmDsn7mZjHziThdY9eJHyMr8NqvVDqIr38ljtMEH2LRlyhIm&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "2 St Margaret St",
+      postalCode: "SW1P 3JX",
+      city: "London",
+      country: "UK",
+    },
+    keywords: ["tourist_attraction", "point_of_interest", "establishment"],
+    rating: 3.8,
+    info: "https://www.westminster.gov.uk/",
+  },
+  {
+    name: "Flanders Fields Memorial Garden",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4032&photoreference=Aap_uECvlDZ4H6T4DBsmdB3YaF-1smpY6YX98C0S0B9fl9c6OEf65CKXlml40gEEQedjKhmCfkemLYn97N5D64XnqiAh2QIeNqnuJrG8bdzB0H-266tdVR9V_82ZTS2HLCBTCuId5jWH8pyj2thMKmRDsNuD1_2XxCJeNN75Ao-EfSI7071K&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "Westminster",
+      postalCode: "SW1H 9EX",
+      city: "London",
+      country: "UK",
+    },
+    keywords: ["tourist_attraction", "point_of_interest", "establishment"],
+    rating: 4.6,
+    info: "N/A",
+  },
+  {
+    name: "SEA LIFE Centre London Aquarium",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4032&photoreference=Aap_uEArTywKjH7xVkh6EVm2G1EBbxYezlkEtFRoWy64UJMXcDnd30WdHEgQcSSDtDqNZ11TMQvKxIRky__Gx4UaobT51hD3r3vBRVweAyKjQphN_VPV8Bj7trozyOXmVgkhZOaNfMLKNqpCQRCaoqyuckYodziSEPjk_dMOOCC7EIyBNh6m&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "Riverside Building, County Hall, Westminster Bridge Rd",
+      postalCode: "SE1 7PB",
+      city: "London",
+      country: "UK",
+    },
+    keywords: ["tourist_attraction", "point_of_interest", "establishment"],
+    rating: 4.3,
+    info: "http://www.visitsealife.com/London/",
+  },
+  {
+    name: "lastminute.com London Eye",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2844&photoreference=Aap_uEDTWCwRyndEQLospSme5-PHg_RyBFoyKsTrlLbjYCsKhAY_dgXLPkCTwleQGlA1jeWeDZ-pfJmxw18nZO70VGh2nD5y-4_xy31wvrQQOUfpzdId6q6rW0w82Fwsiu03SfuPzvTqjBVyIYXfSALgUMnp5TP4du8EvB8aqEEP3IbBc-2o&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "Riverside Building, County Hall",
+      postalCode: "SE1 7PB",
+      city: "London",
+      country: "UK",
+    },
+    keywords: ["tourist_attraction", "point_of_interest", "establishment"],
+    rating: 4.5,
+    info: "https://www.londoneye.com/",
+  },
+  {
+    name: "h Club London",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3024&photoreference=Aap_uEDDuBSchjQBnRHCCNpqVlK8Ry6O2NJgEtaU6vt_85G_I1YZDmc8qsbuPqu7F9YWrg-EcyAziH-1_N35_J3wHm-DKLqNsI8-m99LtNxkh1XI-dD2bg_EVQ3OrSlnLntATHREdFhykKFnHadld3f63knToRMPRwLhI9GE0M9G-KYf7mcq&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "24 Endell St",
+      postalCode: "WC2H 9HQ",
+      city: "London",
+      country: "UK",
+    },
+    keywords: ["tourist_attraction", "point_of_interest", "establishment"],
+    rating: 4.5,
+    info: "N/A",
+  },
+  {
+    name: "Bomber Command Memorial",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=8883&photoreference=Aap_uEC_n6OyemVpSegeCIgrT14WfNacKL6mnO5XRHGyLmUopffWnbUZML-gRmcLeAiTuNJXzIJQ8Uwcu4Rmn1QUKgiIKCGmFyxyXROKfa5qQGnx_Xe5zkHp4rFawOaWLlLgMIBH-WbsJANV8pOp4C7X1TWpduZoJAlH5qEda_DuRqOcYSif&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "Green Park along, Piccadilly",
+      postalCode: "W1K 1QZ",
+      city: "London",
+      country: "UK",
+    },
+    keywords: ["tourist_attraction", "point_of_interest", "establishment"],
+    rating: 4.7,
+    info: "https://www.rafbf.org/bomber-command-memorial",
+  },
+  {
+    name: "Liberty London",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4000&photoreference=Aap_uEAGQAhwNnfXvm7dp_6-CjlJAI0pJC5lCltzF3w3W12Sw6_RRytUW644BdPp2lYCGlK0kpQp4CFRvBivr_qf3eUVavMkWAUQtSgsQWKSAf9nbj780Dka0PyAEkyNdbJI522MvcrnlRn1wD_sSkJ_pI7JzWVkeRgDE_WWMVGx5KB7CIBK&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "Regent St, Carnaby",
+      postalCode: "W1B 5AH",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "department_store",
+      "beauty_salon",
+      "hair_care",
+      "tourist_attraction",
+      "spa",
+      "restaurant",
+      "food",
+      "health",
+      "point_of_interest",
+      "clothing_store",
+      "store",
+      "establishment",
+    ],
+    rating: 4.5,
+    info: "https://www.libertylondon.com/",
+  },
+  {
+    name: "Buckingham Palace",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=12000&photoreference=Aap_uEBts19ROFTm8PmJhM9OO3pzUjg4D4T1ZEPOs4nywtRXyablDhc33R0QmyQ6TB28kGhS7l_Aa7or1cVjglDnWo6NoRdNRUrXXCnkMIJa7sam8Rp5ShRA7UNwuZwBZK8bvMd1LG8cD-XdAEmVYmQDJyx4NIyFKlExYPgs_PHRCSf42j_C&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "Buckingham Palace",
+      postalCode: "SW1A 1AA",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "tourist_attraction",
+      "premise",
+      "point_of_interest",
+      "establishment",
+    ],
+    rating: 4.5,
+    info: "https://www.royalcollection.org.uk/visit/the-state-rooms-buckingham-palace",
+  },
+  {
+    name: "Westminster Abbey",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3024&photoreference=Aap_uEA-fKzAqyOcupCqu0iyf7YxssCXaEaigAX1CSYOuaSajKvCUK44wCT3o7bpurQ04MLa-UnbsYctVC2gmxul6RhwWFQDogEDD4t-abKWkqMeO5wBVlbkoEWSFLy_hOawzotP_lMGCXjZ_5gKqw6gW--GzQSlHJzWO5U1lQDApbvHeVBv&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "20 Deans Yd",
+      postalCode: "SW1P 3PA",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "church",
+      "tourist_attraction",
+      "place_of_worship",
+      "point_of_interest",
+      "establishment",
+    ],
+    rating: 4.6,
+    info: "https://www.westminster-abbey.org/",
+  },
+  {
+    name: "Machine Gun Corps Memorial",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4777&photoreference=Aap_uEAwHyH0syEnGvvq09tibNSZprXT_0Lk7_XdTwSg1OneErMiO5YesiexoQifcQrknwFD6jqQ-SrPVzgV8eEVM7U_eP14tj2Pv0YcmZMgTPz3JKuiXgLP9fT2lHDXf2ajgovElqufU0B_09sAdoDoQMlYPtsFGvg9RAzMu2bLtuYzbNv6&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "4 Duke of Wellington Pl",
+      postalCode: "SW1W 0QH",
+      city: "London",
+      country: "UK",
+    },
+    keywords: ["tourist_attraction", "point_of_interest", "establishment"],
+    rating: 4.4,
+    info: "https://www.english-heritage.org.uk/learn/story-of-england/20th-century/london-wwi-memorials/",
+  },
+  {
+    name: "Big Ben",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1080&photoreference=Aap_uEDUeh1N-kDI765kZLkhVD0D5wc6rW4qb8sYgF-iaAEIShefQ_tR-e4KCaB0RC3_llQzhvBOV1mmf0vQPKwJzpSCksG6FPaWw7TGxYWxkK1_S6TngBe8OwE-c_FftI2hqQ0gFWg27FXyExRpxVE5nw3CZao79ODtYCn-hajbe4asH526&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "Big Ben",
+      postalCode: "SW1A 0AA",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "tourist_attraction",
+      "premise",
+      "point_of_interest",
+      "establishment",
+    ],
+    rating: 4.4,
+    info: "https://www.parliament.uk/bigben",
+  },
+  {
+    name: "Somerset House",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4032&photoreference=Aap_uEAPvF8kPO6UO-0bmmDA6kMK0E5-L6JXrw2g7Qj5r5tPmUC23oEjNcxmjt0JRr6PpgVFaXw1hPWOnKRrEjTMFZe30qHzaiPC34wF8-bBTcbM6ItV2iBrn2IK1bSq67stSTtiAQR00-n9GQ16dC804Rp1gBIXXT3hInrueKlBvITWjg9b&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "Strand",
+      postalCode: "WC2R 1LA",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "tourist_attraction",
+      "museum",
+      "point_of_interest",
+      "establishment",
+    ],
+    rating: 4.5,
+    info: "N/A",
+  },
+  {
+    name: "The Dungeons London",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=4032&photoreference=Aap_uEBpIPyNT_DrEypst9Tp3_5mKctRuzrOAjEOCSCr4AIOscddxsNyPDIoSIP01PXyeJ_F06LJ8QDxHqLE0cHogJk4-9MqvjtN5I-6P3qvIwggU3e__JhLxjzyYT0tMCqjHYmkUxXf9L_GxBnzsQeeYbQHPM-oAriRHYjwM-rc9ONUEwpZ&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "The Queen's Walk",
+      postalCode: "SE1 7PB",
+      city: "London",
+      country: "UK",
+    },
+    keywords: ["tourist_attraction", "point_of_interest", "establishment"],
+    rating: 4.3,
+    info: "https://www.thedungeons.com/london/en/",
+  },
+  {
+    name: "Sir John Soane's Museum",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5457&photoreference=Aap_uEBF4TJWYPkvvgCRXHYa3PCwPx1_qWdN_xhaI7zc1szgJBzcoYSv7YjX4OEcCWZTW1WnoWoP3slg7Rw7PUmqVUuEXZ5CjzE1jJmYWA3Vz_fmuqSC1JxeIHyIe3r1ul9ex1kHBBXti-KHb2nLeyJSgZa2surMQFAqtiLsf0gTCG0yuUel&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "13 Lincoln's Inn Fields",
+      postalCode: "WC2A 3BP",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "museum",
+      "tourist_attraction",
+      "point_of_interest",
+      "establishment",
+    ],
+    rating: 4.6,
+    info: "https://www.soane.org/",
+  },
+  {
+    name: "Jewel Tower",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3024&photoreference=Aap_uEBbISjdLmSSCecNm69YUKIp4CqvtqBXa5TSccxcJYaOkZULZ4KskfIvhWLlSsw57aklC5GEAHHoe6BUlfT8JSQtcHmNty0F-KmcM-ObM4IDIGy899ejQvH_eZrRXF4Mw8rsnj0-XlBEyjbGuxZteIUT3xNTCAzHToBe5MRD9M44trxI&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "Abingdon St",
+      postalCode: "SW1P 3JX",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "tourist_attraction",
+      "museum",
+      "point_of_interest",
+      "establishment",
+    ],
+    rating: 4.1,
+    info: "http://www.english-heritage.org.uk/visit/places/jewel-tower/?utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=jewel%20tower",
+  },
+  {
+    name: "Imperial War Museum",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3024&photoreference=Aap_uECBWNim9Tt_a5R5h3nGe3epa0tNVUw1fKP5IE_GUwxWpRLBoswdY472KoMA05O8idm15qd5EHtkq5zfgD8Q7W3BAWVjBFifdE6NpC3grjjcS5VIhAsC12tEzwAT6AzC-zfhfq98Pd5IcCfR0eC7RUE-CNBggS3uHS-9Hc0k52xjzyZy&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "Lambeth Rd",
+      postalCode: "SE1 6HZ",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "tourist_attraction",
+      "museum",
+      "point_of_interest",
+      "establishment",
+    ],
+    rating: 4.6,
+    info: "https://www.iwm.org.uk/",
+  },
+  {
+    name: "Benjamin Franklin House",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3120&photoreference=Aap_uEDrQQ5F7sjgCxARCXfTdewLgvzB1r4g4bcax8u7uj8ZQwRlTdRcl5mnfF9TDFvKC10lBlaU8TnRKycEd1ojevQjG9f6AgvyDWiagBPrXrS8Zk7nSPlDF2oSkD5zC5e5Rw_aNAbXDkvl7ijm-5XvY5OuHSnMw4GJoQkz9PeDIA8sIOM-&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "36 Craven St",
+      postalCode: "WC2N 5NF",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "tourist_attraction",
+      "museum",
+      "point_of_interest",
+      "establishment",
+    ],
+    rating: 4.1,
+    info: "http://www.benjaminfranklinhouse.org/",
+  },
+  {
+    name: "Hunterian Museum",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=640&photoreference=Aap_uECbXu042-ZmzCcgOT7Lve1BkTYPqxDJ_fGYjWWP3Vkn-LnxE7AAE1GS_n-uF9S6zXBckCnYbizLXE3sq-bRaarvxFw9TSOdNNT4s4SuVzsOuuvv7EE9foGjPN9yymPKARyX_TZSnjwC6gRyx5yiSjBrQ1giCRfPMUyAj51LIKGh8cTH&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address:
+        "Royal College of Surgeons of 35-43 Lincoln's Inn Fields, Lincoln's Inn Fields",
+      postalCode: "WC2A 3PE",
+      city: "London",
+      country: "UK",
+    },
+    keywords: ["museum", "point_of_interest", "establishment"],
+    rating: 4.6,
+    info: "http://www.hunterianmuseum.org/",
+  },
+  {
+    name: "Grant Museum of Zoology",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=5032&photoreference=Aap_uEA9f3yECS0Z1OF_PPTqR8h5SixNfIJoPHpCvH-sRMWwbaExzfaT4eJL81HVknyoWmvxuHk86v90C1wJ5B88zGeU4vz3MWnELyvFp7OxBla5ha1SkdO0lMJbav3Yssvcu7Of1yG8CROWJNiY_-vagKRniIFmG1fTyLvrWGDwzYXRXfJP&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "Rockefeller Building, 21 University St",
+      postalCode: "WC1E 6DE",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "tourist_attraction",
+      "museum",
+      "point_of_interest",
+      "establishment",
+    ],
+    rating: 4.7,
+    info: "https://www.ucl.ac.uk/culture/grant-museum-zoology",
+  },
+  {
+    name: "Camera Museum",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=980&photoreference=Aap_uEDShisdEuiNcEUC9pEdQqwuBHoOhcPXFh58l53Ug6Bfdg3ML1Gr9PTo64adL0JHrbQYTI1NZFCF0KpjrmYH7jBSUbuwcAI3JCtPrwEdQrrMvzQ2HNv2G6c5LgVAvKOkzLO6OF2e4Cy1GjHUUqHo-ia2bNSYufeJm8_9rRs7-IK_xOdG&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "44 Museum St",
+      postalCode: "WC1A 1LY",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "bakery",
+      "tourist_attraction",
+      "cafe",
+      "museum",
+      "electronics_store",
+      "home_goods_store",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment",
+    ],
+    rating: 4.5,
+    info: "https://www.cameramuseum.uk/",
+  },
+  {
+    name: "The Cartoon Museum",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3648&photoreference=Aap_uECKEWqG-RtvBStZEbufROQa5UTB_gW0CYU3Eutv5Z7RP37UwaPPdsfZ2IxzndU2jlKWUqyS3ZsiaDVcTDWrGIB3_6ISCBKnw3Iir7c5Aij6fd67JbBD0m8grJLS2jnX0wXZ5IrAF6rKXXb9em_xN7_j78U6tH6SbZDUPM6YC_iGGtBP&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "63 Wells St",
+      postalCode: "W1A 3AE",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "tourist_attraction",
+      "museum",
+      "point_of_interest",
+      "establishment",
+    ],
+    rating: 4,
+    info: "http://cartoonmuseum.org/",
+  },
+  {
+    name: "The Guards Museum",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3456&photoreference=Aap_uEBmIUnwFai_daROIvQ8QNAn7xmIwr5Mt-LpTZn4WqDfOipCAXJGrtzJOfB1_THeENIeMeplWAhndO3VNs-l8SwM0W109dz0jekIajue9EEYh4VK9Ek_sI5T3g6PlCwUvvADdVC5AUKc1P97Hw1S16k7MnJ8sOuYz5ew8xmb8OpQjjJU&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "Wellington Barracks, Birdcage Walk",
+      postalCode: "SW1E 6HQ",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "museum",
+      "tourist_attraction",
+      "point_of_interest",
+      "establishment",
+    ],
+    rating: 4.3,
+    info: "http://www.theguardsmuseum.com/",
+  },
+  {
+    name: "Spencer House",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1439&photoreference=Aap_uED_VWB1-PW219qKpQCjKLmcyTgK08h7kXWjiZESIp8DVIEb-Cg8ifMWP1sq8UpMcqukyxQ06Zc4DBPqud-PmEV7CyuQsPbimpI2p8N4t_sK2XKR8NeJosilz-OaWnByZJLFdmLlnH1odP7oynutbVbXTcLpIiDSYhQsKv0H49RNLn5z&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "27 St James's Pl, St. James's",
+      postalCode: "SW1A 1NR",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "tourist_attraction",
+      "museum",
+      "point_of_interest",
+      "establishment",
+    ],
+    rating: 4.5,
+    info: "http://www.spencerhouse.co.uk/",
+  },
+  {
+    name: "Handel & Hendrix in London",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2000&photoreference=Aap_uEAJOuzaQJIscuj_L6NqCYDBdbz1Gdv6-s6pykJ54AwAXBXyJuwmCQA2anazZ3AgOLWgFBsdxBGZNLicoRf0MarU9X5GXNcCxByQT_E1E-RWxg8KvXWYWm3BZc--9yGPjcYXkZS6hNxo4qhNxwGFplngt3zjKQLMTbZ5v0jNjZXgmMo7&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "25 Brook St",
+      postalCode: "W1K 4HB",
+      city: "London",
+      country: "UK",
+    },
+    keywords: ["museum", "point_of_interest", "store", "establishment"],
+    rating: 4.5,
+    info: "https://handelhendrix.org/",
+  },
+  {
+    name: "Florence Nightingale Museum",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=3648&photoreference=Aap_uECEoJ7gHKF8BNQ1SYmQ7L7YfkQDwgpaV62L0-lSj80zFnoOVG5FgU-tIiCwdf5PA5ilZeRtboc2HVyhKwP35IkgpXp_pVpaYeC0mkeIgppRfGNJRTPYSqCXFJNoVrIFJdXOWpAUBqnqdSC2xSRZGO3l3u9lobs7mSzNckgNmbFlNFec&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "2 Lambeth Palace Rd",
+      postalCode: "SE1 7EW",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "museum",
+      "tourist_attraction",
+      "point_of_interest",
+      "establishment",
+    ],
+    rating: 4.3,
+    info: "https://www.florence-nightingale.co.uk/",
+  },
+  {
+    name: "Dr Johnson's House",
+    image:
+      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=2260&photoreference=Aap_uEAUKdlazQYJpcE_KoYA9MuYjLohZegAH5CAwxFqOD9uhuxhFfc816UxtthImXMQp_gTvt7so2yh1QrN8M0uY9rvoeaOFUsf2WSXwQNM4xfu8ELAoAb8FJ5Giofz9ZjKE-fdcE2dKooeB3rzEL5VIfKrHZTiQExyXt44Wlhj60GO0hGA&key=AIzaSyBHL273BGBeOnlPc_2IF7Pb2WSpnkr_UTY",
+    location: {
+      address: "17 Gough Square",
+      postalCode: "EC4A 3DE",
+      city: "London",
+      country: "UK",
+    },
+    keywords: [
+      "museum",
+      "tourist_attraction",
+      "point_of_interest",
+      "establishment",
+    ],
+    rating: 4.4,
+    info: "http://www.drjohnsonshouse.org/",
   },
 ];
 export default places;
