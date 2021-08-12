@@ -102,6 +102,7 @@ const deleteMyEvents = asyncHandler(async (req, res) => {
   if (events) {
     for (let i = 0; i < events.length; i++) {
       await Event.findByIdAndDelete(events[i]._id);
+      await InvitedEvent.findOneAndDelete({ event: events[i]._id });
     }
     res.json({ message: "Events Removed" });
   } else {
