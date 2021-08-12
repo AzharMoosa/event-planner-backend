@@ -110,7 +110,7 @@ const getUserEvents = asyncHandler(async (req, res) => {
     const userEvents = await Event.find({ hostUser: req.user._id });
     for (let i = 0; i < user.invitedEvents.length; i++) {
       const invitedEvent = await InvitedEvent.findById(user.invitedEvents[i]);
-      if (invitedEvent.status == 3) {
+      if (invitedEvent && invitedEvent.status == 3) {
         const event = await Event.findById(invitedEvent.event);
         userEvents.push(event);
       }
@@ -138,7 +138,7 @@ const getUserInvites = asyncHandler(async (req, res) => {
     const userInvites = [];
     for (let i = 0; i < user.invitedEvents.length; i++) {
       const invitedEvent = await InvitedEvent.findById(user.invitedEvents[i]);
-      if (invitedEvent.status == 2) {
+      if (invitedEvent && invitedEvent.status == 2) {
         const event = await Event.findById(invitedEvent.event);
         userInvites.push(event);
       }
